@@ -6,7 +6,7 @@
 
 1. Run `pwd`, inspect the repository root and `git status --short`; **do not assume** that any README tree entry exists.
 2. Check for `gradlew`, Gradle files, Java sources, exact Minecraft version, NeoForge patch, Java toolchain and mod ID. No source/build files present = planning repository, **not** a running mod.
-3. Read `docs/SKILL_TREES.md` (full draft), `docs/GAME_DESIGN.md`, `docs/MOD_COMPATIBILITY_RESEARCH.md`, `docs/MANUAL_WORLD_PIPELINE.md`, `docs/INSTALLER_AND_ENV.md` and `docs/LEGAL_AND_RELEASE.md` for affected work.
+3. Read `UPDATES.md`, `docs/SKILL_TREES.md` (full draft), `docs/GAME_DESIGN.md`, `docs/MOD_COMPATIBILITY_RESEARCH.md`, `docs/MANUAL_WORLD_PIPELINE.md`, `docs/INSTALLER_AND_ENV.md` and `docs/LEGAL_AND_RELEASE.md` for affected work.
 4. Read the latest pertinent ADR before altering a decided behavior. Prefer direct product requirements over unverified assistant proposals; preserve unknowns as unknowns.
 5. Don't use dynamic/latest dependency versions, fabricated release IDs, guessed mod metadata or outdated Minecraft package paths. The **suggested** baseline is Minecraft **1.21.1 / NeoForge 21.1.x / Java 21**, not yet a pinned reproducible build.
 
@@ -96,6 +96,8 @@ No version or license claims in `docs/MOD_COMPATIBILITY_RESEARCH.md` mean that a
 ## 8. Mandatory output of every agent task
 
 In the final task summary state: **(a)** files changed, **(b)** important assumptions vs confirmed sources, **(c)** any dependencies added with pinned IDs/license and official URLs, **(d)** tests run plus actual pass/fail output, **(e)** multiplayer/world impact, **(f)** unresolved issues and next vertical slice. No invented screenshots, source commits, external permissions, compiled mods or in-game test results.
+
+**Repository log policy:** Keep [`README.md`](README.md) concise, high-level, and clean. Whenever substantive milestones, architecture decisions, or vertical slices are completed, record elaborate, detailed updates in [`UPDATES.md`](UPDATES.md) rather than expanding `README.md`.
 
 ## 9. Forbidden shortcuts
 

@@ -26,7 +26,8 @@ Before writing or modifying code, always inspect:
 3. [`docs/GAME_DESIGN.md`](docs/GAME_DESIGN.md) — full Act I & Act II storyline, zones, bosses, shops, Ether Tears, Pocket Hub, and Draft 1.0 vs. `AGENTS.md` reconciliation notes.
 4. [`docs/SKILL_TREES.md`](docs/SKILL_TREES.md) — canonical 128-node skill trees, 8 subclasses, level gates, and combat formulas.
 5. [`docs/MOD_COMPATIBILITY_RESEARCH.md`](docs/MOD_COMPATIBILITY_RESEARCH.md) — third-party mod eligibility, licensing, and integration POC rules.
-6. `docs/decisions/` *(when present)* — Architecture Decision Records (ADRs) take top design precedence.
+6. [`UPDATES.md`](UPDATES.md) — project activity, recent changes, and detailed evolution logs.
+7. `docs/decisions/` *(when present)* — Architecture Decision Records (ADRs) take top design precedence.
 
 ---
 
@@ -123,4 +124,7 @@ When Java source is initialized, keep everything inside **one mod** under `src/m
    - **(d) Tests/commands run** plus actual pass/fail output
    - **(e) Multiplayer & world impact**
    - **(f) Unresolved issues & recommended next vertical slice**
+5. **Elaborate Updates in `UPDATES.md` (Preserve Brief `README.md`):**
+   - Keep [`README.md`](README.md) strictly concise as a high-level project summary and directory index. Do not expand `README.md` with detailed progress logs or changelogs.
+   - When completing substantive milestones, design decisions, or vertical slices, record elaborate entries in [`UPDATES.md`](UPDATES.md) detailing date, commit/scope, affected systems, and technical rationale.
 

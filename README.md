@@ -6,6 +6,7 @@ Planning repository for one custom NeoForge RPG mod, an independently authored h
 
 - [Agent and development guidelines](AGENTS.md)
 - [Claude Code & AI agent guide](CLAUDE.md)
+- [Project updates & changelog](UPDATES.md)
 - [Game design manuscript (Act I & II storyline and systems)](docs/GAME_DESIGN.md)
 - [Skill tree design and combat progression](docs/SKILL_TREES.md)
 - [Third-party mod compatibility research](docs/MOD_COMPATIBILITY_RESEARCH.md)
