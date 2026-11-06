@@ -1,10 +1,12 @@
-﻿# tentativeRPG
+# tentativeRPG
 
 Planning repository for one custom NeoForge RPG mod, an independently authored handcrafted Minecraft world, and an optional launcher-managed modpack.
 
 ## Documentation
 
 - [Agent and development guidelines](AGENTS.md)
+- [Claude Code & AI agent guide](CLAUDE.md)
+- [Game design manuscript (Act I & II storyline and systems)](docs/GAME_DESIGN.md)
 - [Third-party mod compatibility research](docs/MOD_COMPATIBILITY_RESEARCH.md)
 
 The supplied documents describe intended architecture and future work. Other files and directories mentioned in them have not yet been added.
