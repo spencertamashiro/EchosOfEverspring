@@ -1,0 +1,49 @@
+# Local secrets and machine configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.idea/
+.vscode/
+*.iml
+
+# Gradle, Java and game run output
+.gradle/
+build/
+out/
+run/
+runs/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.log
+logs/
+crash-reports/
+
+# Game instances, saves and local staging
+.minecraft/
+saves/
+backups/
+staging/
+server/local/
+world/local/
+world/exports/*
+!world/exports/README.md
+*.mca
+*.mcr
+session.lock
+playerdata/
+
+# Pack/release payloads; publish deliberately as release artifacts
+*.mrpack
+*.exe
+*.zip
+*.7z
+
+# OS/editor scratch
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+__pycache__/

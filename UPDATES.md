@@ -6,6 +6,17 @@ This document tracks detailed progress logs, milestone summaries, and architectu
 
 ## Update Log
 
+### [2026-11-06] Development Directory Scaffold and Team Boundaries
+
+- Added one-mod source package reservations for all 22 concerns from AGENTS.md, runtime asset/data folders, pure-test and generated-resource reservations. No Java mechanics, loader metadata or Gradle tasks were fabricated.
+- Added separate original-art, hand-authored Act I/II schematic, map manifest/export, launcher profile, dedicated-server operations, installer and tooling areas. Git-retained empty folders use `.gitkeep`; concern READMEs define responsibilities.
+- Added `CONTRIBUTING.md`, a proposed workstream/contract handoff map, ADR template, testing/evidence guide, compatibility report index and PR template. No contributor assignments or architecture proposals were marked accepted.
+- Added root ignore rules for secrets, game instances, builds, raw world saves, dependency JARs and release archives. Existing design and Obsidian content was preserved.
+- `dev.tentativerpg` and `tentativerpg` are provisional filesystem names only. Exact platform versions, registry identity, package ownership, world topology and combat engine remain unresolved.
+- Validation: directory/link checks and `git diff --check`; no build or in-game tests apply because no MDK or implementation exists. No dependencies added; no multiplayer state or world data changed.
+- Next slice: approve platform/identity ADR, import matching NeoForge MDK, implement minimal Warrior server state/stat/unlock behavior with pure tests, then prove client and dedicated-server startup.
+
+
 ### [2026-11-06] Dedicated Server Architectural Scope
 - **Commit:** `d4af592`
 - **Scope & Details:**
