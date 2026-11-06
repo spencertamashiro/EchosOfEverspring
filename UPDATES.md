@@ -38,3 +38,4 @@ This document tracks detailed progress logs, milestone summaries, and architectu
   - Uploaded author storyline manuscript [`docs/GAME_DESIGN.md`](docs/GAME_DESIGN.md) covering Act I (*The Illusion of Ever Spring*), Act II (*The Waking Nightmare*), world mechanics, bosses (*Frost Yeti*, *Black Dragon*, *Undead Yeti*), Ether Tears, and Pocket Hub.
   - Added [`CLAUDE.md`](CLAUDE.md) agent instructions aligned with binding [`AGENTS.md`](AGENTS.md).
   - Preserved third-party mod research and compatibility matrix ([`docs/MOD_COMPATIBILITY_RESEARCH.md`](docs/MOD_COMPATIBILITY_RESEARCH.md)).
+
