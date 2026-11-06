@@ -12,6 +12,7 @@ Welcome! This file configures Claude (Claude Code, IDE integrations, and convers
   1. **One single custom NeoForge RPG mod JAR** containing all original RPG gameplay (classes, subclasses, 128-node skill trees, combat/damage math, Gold economy, story/quest state machine, Ether Tears & Fog-of-War map, ID Card GUI, Pocket Hub Pendant, and boss mechanics).
   2. **An independently authored, handcrafted Minecraft campaign world** across two states: **Act I: The Illusion of Ever Spring** and **Act II: The Waking Nightmare** (1:1 coordinate parallel dimension).
   3. **An optional launcher-managed modpack** (`.mrpack` / CurseForge manifest) and staging installer helpers.
+  4. **Dedicated Server Implementation (Eventually Planned):** A dedicated server deployment is planned for multiplayer hosting. Keep this in mind across all architectural decisions: enforce strict client/server separation, guarantee headless dedicated server compatibility, prevent client-only classloading in common/server paths, and design for robust multiplayer synchronization and isolated player state.
 - **Target Platform Baseline:** Minecraft **1.21.1** / **NeoForge 21.1.x** / **Java 21** (verify `gradle.properties` once the NeoForge MDK is initialized; do not invent dynamic/unverified dependency versions).
 - **Never split gameplay into multiple custom mods.** External third-party mods are libraries or external content wrapped behind `compat/<modname>/` adapters.
 
@@ -60,7 +61,7 @@ Before writing or modifying code, always inspect:
 - **Damage Types:** `Physical` (`Slashing` / `Blunt`), `Magic`, `Holy`, `Frost`, `Dark`.
 - **Immutable Stat Snapshots:** Compute stats and damage deterministically on the **logical server**.
 - **Exploit Prevention:** Armor swapping, death, relogging, dual-wielding, weapon tag switching, or status proc recursion must never bypass cooldowns, mana/stamina costs, or unlock gates.
-- **Server Authority:** The server owns all damage calculation, skill unlocks, Gold balances, shop purchases, quest flags, boss choice rewards (*Frost Heart* vs. *Yeti Shard*, *100,000 Gold* vs. weapon, *Dark Egg*), and Ether Tear teleport permissions. The client only renders UI and sends intent packets.
+- **Server Authority & Dedicated Server Target:** The server owns all damage calculation, skill unlocks, Gold balances, shop purchases, quest flags, boss choice rewards (*Frost Heart* vs. *Yeti Shard*, *100,000 Gold* vs. weapon, *Dark Egg*), and Ether Tear teleport permissions. The client only renders UI and sends intent packets. Because a dedicated server deployment is eventually planned, never couple game state to singleplayer integrated server assumptions.
 
 ### Story & World State (`Act I` → `Act II`)
 - **No Procedural Campaign Generation:** Both Act I (*The Illusion of Ever Spring*) and Act II (*The Waking Nightmare*) are hand-authored maps with 1:1 coordinate mapping. Never generate terrain, structures, or guessed coordinates in code.

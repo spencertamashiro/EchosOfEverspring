@@ -355,3 +355,4 @@ When adding a **new entity**:
 - [minecraft-imagegen](https://github.com/Jahrome907/minecraft-agent-skills/tree/main/plugins/minecraft-codex-skills/skills/minecraft-imagegen)
 - [minecraft-resource-pack](https://github.com/Jahrome907/minecraft-agent-skills/tree/main/plugins/minecraft-codex-skills/skills/minecraft-resource-pack)
 - [minecraft-testing](https://github.com/Jahrome907/minecraft-agent-skills/tree/main/plugins/minecraft-codex-skills/skills/minecraft-testing)
+

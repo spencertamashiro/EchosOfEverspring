@@ -1,6 +1,6 @@
 # AGENTS.md — Binding Instructions for Codex / AI Coding Agents
 
-**Scope:** Entire repository; any nested `AGENTS.md` is permitted only if it adds stricter, non-conflicting local rules. Read this file, `README.md`, relevant `docs/*`, and actual build files **before editing code**. Our project is **one custom NeoForge RPG mod** plus an independently authored handcrafted Minecraft world and optional launcher-managed modpack; never reinterpret the repository as multiple gameplay mods.
+**Scope:** Entire repository; any nested `AGENTS.md` is permitted only if it adds stricter, non-conflicting local rules. Read this file, `README.md`, relevant `docs/*`, and actual build files **before editing code**. Our project is **one custom NeoForge RPG mod** plus an independently authored handcrafted Minecraft world and optional launcher-managed modpack (with a dedicated server implementation eventually planned); never reinterpret the repository as multiple gameplay mods.
 
 ## 0. First-step environment check
 
@@ -18,7 +18,7 @@
 - Eight subclasses: Warrior Duelist/Juggernaut; Mage Battlemage/Arcanist; Archer Marksman/Skirmisher; Priest Hierophant/Inquisitor. ONE active subclass for a class build. Weapons gate subclass effects but equipping a weapon never selects an unpurchased subclass.
 - Skill design `docs/SKILL_TREES.md`: 128 nodes total (32/class: 12 shared+10/branch×2); level cap 50; 49 SP from levels 2–50; shared tree 24 SP + one branch 40 SP = **64 SP**, so no full completion. **No extra farmable or exploitable SP**. Level-45 Ascension options are mutually exclusive. Level gates: subclass 25, passive 27, active 30, advanced 35, endgame 40, Ascension 45. One equipped subclass passive and one active, four choices per subclass in each category, choices cost 0 SP.
 - Prevent armor swaps, death, loadout changes, re-log, dual wield, weapon tags, status proc recursion or cross-mod damage hooks from bypassing costs/cooldowns/unlocks. Gold and one-time item rewards must be atomic/idempotent.
-- Server computes all damage, unlocks, purchases, quest flags, teleport permissions and rewards; client only displays/requests. Test multiplayer, death, dimension changes, restart, data migration.
+- Server computes all damage, unlocks, purchases, quest flags, teleport permissions and rewards; client only displays/requests. Test multiplayer, death, dimension changes, restart, data migration. **Dedicated server implementation is eventually planned:** keep headless dedicated server compatibility at the forefront of all design and code; zero client-class references in common/server logic, no singleplayer-only assumptions, and full multiplayer state isolation.
 - Distinguish confirmed design, previous **balancing draft**, research, accepted ADR, implemented feature, passing automated test and validated in-game behavior. Do not promote a draft into product canon silently.
 
 ## 2. Source-of-truth precedence

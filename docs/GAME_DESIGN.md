@@ -6,7 +6,7 @@
 
 ## 1. Core Systems & Mechanics
 
-- **Engine & Framework:** Minecraft Java Edition (**NeoForge**, suggested baseline `1.21.1` / `NeoForge 21.1.x` / `Java 21`), blending Souls-like exploration and combat with Hypixel Skyblock progression.
+- **Engine & Framework:** Minecraft Java Edition (**NeoForge**, suggested baseline `1.21.1` / `NeoForge 21.1.x` / `Java 21`), blending Souls-like exploration and combat with Hypixel Skyblock progression. A dedicated server implementation is eventually planned for multiplayer campaign hosting; all systems must be built for headless dedicated server operation and multi-client synchronization.
 - **Currency & Economy:** **Gold** dropped from enemies is the primary currency.
   - **Chest Shops (Layer 1):** Used for consumables and potion/buff restocking.
   - **Podium Shops (Layer 2):** Skyblock-style podiums used for rare artifacts (locked until late game via the *Dark Egg*).

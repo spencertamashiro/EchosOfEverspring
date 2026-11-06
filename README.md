@@ -1,6 +1,6 @@
 # tentativeRPG
 
-Planning repository for one custom NeoForge RPG mod, an independently authored handcrafted Minecraft world, and an optional launcher-managed modpack.
+Planning repository for one custom NeoForge RPG mod, an independently authored handcrafted Minecraft world, and an optional launcher-managed modpack. A dedicated server implementation is eventually planned, so all gameplay, networking, and progression systems are designed for headless dedicated server compatibility and multiplayer scalability.
 
 ## Documentation
 
