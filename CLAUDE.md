@@ -23,7 +23,7 @@ Before writing or modifying code, always inspect:
 1. `pwd` and `git status --short` — verify what actually exists on disk (do not assume planned directories or Gradle files exist until committed).
 2. [`AGENTS.md`](AGENTS.md) — non-negotiable product invariants, third-party mod gates, map safety, and required task output format.
 3. [`docs/GAME_DESIGN.md`](docs/GAME_DESIGN.md) — full Act I & Act II storyline, zones, bosses, shops, Ether Tears, Pocket Hub, and Draft 1.0 vs. `AGENTS.md` reconciliation notes.
-4. `docs/SKILL_TREES.md` *(once uploaded by Spencer)* — canonical 128-node skill trees, 8 subclasses, level gates, and combat formulas.
+4. [`docs/SKILL_TREES.md`](docs/SKILL_TREES.md) — canonical 128-node skill trees, 8 subclasses, level gates, and combat formulas.
 5. [`docs/MOD_COMPATIBILITY_RESEARCH.md`](docs/MOD_COMPATIBILITY_RESEARCH.md) — third-party mod eligibility, licensing, and integration POC rules.
 6. `docs/decisions/` *(when present)* — Architecture Decision Records (ADRs) take top design precedence.
 
