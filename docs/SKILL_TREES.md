@@ -540,3 +540,4 @@ These are *suggested* loadouts, not forced builds. No choice should be strictly 
 | Level-50 SP budget | 49 | Same 49-SP budget per active class build |
 
 **Final design guarantee:** Even limiting attention to a single subclass branch, fully purchasing the shared class tree and that branch takes **64 SP**, but a level-50 player receives only **49 SP**. The two Ascension nodes are additionally exclusive. Players must prioritize their strengths throughout midgame, late game and endgame.
+

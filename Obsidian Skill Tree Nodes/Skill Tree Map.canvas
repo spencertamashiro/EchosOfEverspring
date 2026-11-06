@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"start","type":"text","text":"# Minecraft RPG Skill Trees\n\n[[Minecraft RPG Skill Trees|Start here]] · [[Design Reference|Design reference]]\n\nPick a class to open its tier map or build planner.","x":540,"y":0,"width":440,"height":180},
+		{"id":"Warrior","type":"text","text":"## Warrior\n\n[[Warrior Tree.canvas|Open tier map]]\n\n[[Warrior Build Planner|Open build planner]]\n\nDuelist / Juggernaut","x":0,"y":330,"width":340,"height":200,"color":"1"},
+		{"id":"Mage","type":"text","text":"## Mage\n\n[[Mage Tree.canvas|Open tier map]]\n\n[[Mage Build Planner|Open build planner]]\n\nBattlemage / Arcanist","x":400,"y":330,"width":340,"height":200,"color":"2"},
+		{"id":"Archer","type":"text","text":"## Archer\n\n[[Archer Tree.canvas|Open tier map]]\n\n[[Archer Build Planner|Open build planner]]\n\nMarksman / Skirmisher","x":800,"y":330,"width":340,"height":200,"color":"3"},
+		{"id":"Priest","type":"text","text":"## Priest\n\n[[Priest Tree.canvas|Open tier map]]\n\n[[Priest Build Planner|Open build planner]]\n\nHierophant / Inquisitor","x":1200,"y":330,"width":340,"height":200,"color":"4"}
+	],
+	"edges":[
+		{"id":"start-Warrior","fromNode":"start","fromSide":"bottom","toNode":"Warrior","toSide":"top"},
+		{"id":"start-Mage","fromNode":"start","fromSide":"bottom","toNode":"Mage","toSide":"top"},
+		{"id":"start-Archer","fromNode":"start","fromSide":"bottom","toNode":"Archer","toSide":"top"},
+		{"id":"start-Priest","fromNode":"start","fromSide":"bottom","toNode":"Priest","toSide":"top"}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"start","type":"text","text":"# Priest\n\n[[Priest Build Planner|Open interactive build planner]] · [[Skill Tree Map.canvas|All classes]]\n\nShared upgrades run independently of the subclass paths. Pick one subclass at level 25.","x":430,"y":0,"width":560,"height":205,"color":"4"},
+		{"id":"branch0","type":"text","text":"## Shared Priest\n\n[[Priest Build Planner|Open planner]]","x":0,"y":310,"width":420,"height":120,"color":"4"},
+		{"id":"branch0I","type":"text","text":"### Tier I\nLevel 2 · 1 SP each\nNo previous purchases\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Sacred Knowledge|Sacred Knowledge]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Divine Focus|Divine Focus]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Blessed Casting|Blessed Casting]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Spiritual Resilience|Spiritual Resilience]]","x":0,"y":500,"width":420,"height":215,"color":"4"},
+		{"id":"branch0II","type":"text","text":"### Tier II\nLevel 15 · 2 SP each\nBuy 2 Shared I nodes\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Benevolent Touch|Benevolent Touch]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Lightbearer|Lightbearer]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Compassion|Compassion]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Prayer of Renewal|Prayer of Renewal]]","x":0,"y":780,"width":420,"height":215,"color":"4"},
+		{"id":"branch0III","type":"text","text":"### Tier III\nLevel 30 · 3 SP each\nBuy 2 Shared II nodes\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Sacred Bond|Sacred Bond]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Divine Endurance|Divine Endurance]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Faithful Resolve|Faithful Resolve]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Last Prayer|Last Prayer]]","x":0,"y":1060,"width":420,"height":215,"color":"4"},
+		{"id":"branch1","type":"text","text":"## Hierophant\n\n[[Priest Build Planner#Hierophant|See loadout choices]]","x":500,"y":310,"width":420,"height":120,"color":"4"},
+		{"id":"branch1II","type":"text","text":"### Tier II\nLevel 25 · 2 SP each\nChoose this subclass and finish the specialization quest\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Gentle Grace|Gentle Grace]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Protective Light|Protective Light]]","x":500,"y":500,"width":420,"height":215,"color":"4"},
+		{"id":"branch1III","type":"text","text":"### Tier III\nLevel 30 · 3 SP each\nBuy 1 Subclass II node\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Sacred Ground|Sacred Ground]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Guiding Prayer|Guiding Prayer]]","x":500,"y":780,"width":420,"height":215,"color":"4"},
+		{"id":"branch1IV","type":"text","text":"### Tier IV\nLevel 35 · 4 SP each\nBuy 1 Subclass III node\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Guardian's Blessing|Guardian's Blessing]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Purifying Touch|Purifying Touch]]","x":500,"y":1060,"width":420,"height":215,"color":"4"},
+		{"id":"branch1V","type":"text","text":"### Tier V\nLevel 40 · 5 SP each\nBuy 1 Subclass IV node\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Eternal Sanctuary|Eternal Sanctuary]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Divine Providence|Divine Providence]]","x":500,"y":1340,"width":420,"height":215,"color":"4"},
+		{"id":"branch1VI","type":"text","text":"### Tier VI · Ascension\nLevel 45 · 6 SP each\nBuy 1 Subclass V node and choose only one Ascension\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Beacon of Hope|Beacon of Hope]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Hallowed Refuge|Hallowed Refuge]]","x":500,"y":1620,"width":420,"height":215,"color":"4"},
+		{"id":"branch2","type":"text","text":"## Inquisitor\n\n[[Priest Build Planner#Inquisitor|See loadout choices]]","x":1000,"y":310,"width":420,"height":120,"color":"4"},
+		{"id":"branch2II","type":"text","text":"### Tier II\nLevel 25 · 2 SP each\nChoose this subclass and finish the specialization quest\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Dark Communion|Dark Communion]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Ritual Blade|Ritual Blade]]","x":1000,"y":500,"width":420,"height":215,"color":"4"},
+		{"id":"branch2III","type":"text","text":"### Tier III\nLevel 30 · 3 SP each\nBuy 1 Subclass II node\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Blood Rituals|Blood Rituals]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Cruel Mercy|Cruel Mercy]]","x":1000,"y":780,"width":420,"height":215,"color":"4"},
+		{"id":"branch2IV","type":"text","text":"### Tier IV\nLevel 35 · 4 SP each\nBuy 1 Subclass III node\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Tormented Soul|Tormented Soul]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Harvest Essence|Harvest Essence]]","x":1000,"y":1060,"width":420,"height":215,"color":"4"},
+		{"id":"branch2V","type":"text","text":"### Tier V\nLevel 40 · 5 SP each\nBuy 1 Subclass IV node\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Blood Covenant|Blood Covenant]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Final Judgment|Final Judgment]]","x":1000,"y":1340,"width":420,"height":215,"color":"4"},
+		{"id":"branch2VI","type":"text","text":"### Tier VI · Ascension\nLevel 45 · 6 SP each\nBuy 1 Subclass V node and choose only one Ascension\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Sanguine Pact|Sanguine Pact]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Priest/Last Absolution|Last Absolution]]","x":1000,"y":1620,"width":420,"height":215,"color":"4"}
+	],
+	"edges":[
+		{"id":"start-branch0","fromNode":"start","fromSide":"bottom","toNode":"branch0","toSide":"top"},
+		{"id":"branch0-branch0I","fromNode":"branch0","fromSide":"bottom","toNode":"branch0I","toSide":"top"},
+		{"id":"branch0I-branch0II","fromNode":"branch0I","fromSide":"bottom","toNode":"branch0II","toSide":"top"},
+		{"id":"branch0II-branch0III","fromNode":"branch0II","fromSide":"bottom","toNode":"branch0III","toSide":"top"},
+		{"id":"start-branch1","fromNode":"start","fromSide":"bottom","toNode":"branch1","toSide":"top"},
+		{"id":"branch1-branch1II","fromNode":"branch1","fromSide":"bottom","toNode":"branch1II","toSide":"top"},
+		{"id":"branch1II-branch1III","fromNode":"branch1II","fromSide":"bottom","toNode":"branch1III","toSide":"top"},
+		{"id":"branch1III-branch1IV","fromNode":"branch1III","fromSide":"bottom","toNode":"branch1IV","toSide":"top"},
+		{"id":"branch1IV-branch1V","fromNode":"branch1IV","fromSide":"bottom","toNode":"branch1V","toSide":"top"},
+		{"id":"branch1V-branch1VI","fromNode":"branch1V","fromSide":"bottom","toNode":"branch1VI","toSide":"top"},
+		{"id":"start-branch2","fromNode":"start","fromSide":"bottom","toNode":"branch2","toSide":"top"},
+		{"id":"branch2-branch2II","fromNode":"branch2","fromSide":"bottom","toNode":"branch2II","toSide":"top"},
+		{"id":"branch2II-branch2III","fromNode":"branch2II","fromSide":"bottom","toNode":"branch2III","toSide":"top"},
+		{"id":"branch2III-branch2IV","fromNode":"branch2III","fromSide":"bottom","toNode":"branch2IV","toSide":"top"},
+		{"id":"branch2IV-branch2V","fromNode":"branch2IV","fromSide":"bottom","toNode":"branch2V","toSide":"top"},
+		{"id":"branch2V-branch2VI","fromNode":"branch2V","fromSide":"bottom","toNode":"branch2VI","toSide":"top"}
+	]
+}

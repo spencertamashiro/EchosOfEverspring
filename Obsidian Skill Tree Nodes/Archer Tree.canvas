@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"start","type":"text","text":"# Archer\n\n[[Archer Build Planner|Open interactive build planner]] · [[Skill Tree Map.canvas|All classes]]\n\nShared upgrades run independently of the subclass paths. Pick one subclass at level 25.","x":430,"y":0,"width":560,"height":205,"color":"3"},
+		{"id":"branch0","type":"text","text":"## Shared Archer\n\n[[Archer Build Planner|Open planner]]","x":0,"y":310,"width":420,"height":120,"color":"3"},
+		{"id":"branch0I","type":"text","text":"### Tier I\nLevel 2 · 1 SP each\nNo previous purchases\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Steady Hands|Steady Hands]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Light Footed|Light Footed]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Sharpened Ammunition|Sharpened Ammunition]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Efficient Draw|Efficient Draw]]","x":0,"y":500,"width":420,"height":215,"color":"3"},
+		{"id":"branch0II","type":"text","text":"### Tier II\nLevel 15 · 2 SP each\nBuy 2 Shared I nodes\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Eagle Vision|Eagle Vision]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Nimble Recovery|Nimble Recovery]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Ammunition Recovery|Ammunition Recovery]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Swift Reload|Swift Reload]]","x":0,"y":780,"width":420,"height":215,"color":"3"},
+		{"id":"branch0III","type":"text","text":"### Tier III\nLevel 30 · 3 SP each\nBuy 2 Shared II nodes\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Tactical Retreat|Tactical Retreat]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Weak Point Mastery|Weak Point Mastery]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Efficient Hunter|Efficient Hunter]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Ranged Survival|Ranged Survival]]","x":0,"y":1060,"width":420,"height":215,"color":"3"},
+		{"id":"branch1","type":"text","text":"## Marksman\n\n[[Archer Build Planner#Marksman|See loadout choices]]","x":500,"y":310,"width":420,"height":120,"color":"3"},
+		{"id":"branch1II","type":"text","text":"### Tier II\nLevel 25 · 2 SP each\nChoose this subclass and finish the specialization quest\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Longshot|Longshot]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Patient Aim|Patient Aim]]","x":500,"y":500,"width":420,"height":215,"color":"3"},
+		{"id":"branch1III","type":"text","text":"### Tier III\nLevel 30 · 3 SP each\nBuy 1 Subclass II node\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Armor Piercer|Armor Piercer]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Steady Breathing|Steady Breathing]]","x":500,"y":780,"width":420,"height":215,"color":"3"},
+		{"id":"branch1IV","type":"text","text":"### Tier IV\nLevel 35 · 4 SP each\nBuy 1 Subclass III node\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Precision Mastery|Precision Mastery]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Eagle's Reach|Eagle's Reach]]","x":500,"y":1060,"width":420,"height":215,"color":"3"},
+		{"id":"branch1V","type":"text","text":"### Tier V\nLevel 40 · 5 SP each\nBuy 1 Subclass IV node\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Perfect Shot|Perfect Shot]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Hunter's Instinct|Hunter's Instinct]]","x":500,"y":1340,"width":420,"height":215,"color":"3"},
+		{"id":"branch1VI","type":"text","text":"### Tier VI · Ascension\nLevel 45 · 6 SP each\nBuy 1 Subclass V node and choose only one Ascension\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/True Sight|True Sight]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Final Arrow|Final Arrow]]","x":500,"y":1620,"width":420,"height":215,"color":"3"},
+		{"id":"branch2","type":"text","text":"## Skirmisher\n\n[[Archer Build Planner#Skirmisher|See loadout choices]]","x":1000,"y":310,"width":420,"height":120,"color":"3"},
+		{"id":"branch2II","type":"text","text":"### Tier II\nLevel 25 · 2 SP each\nChoose this subclass and finish the specialization quest\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Quick Hands|Quick Hands]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Lightweight Gear|Lightweight Gear]]","x":1000,"y":500,"width":420,"height":215,"color":"3"},
+		{"id":"branch2III","type":"text","text":"### Tier III\nLevel 30 · 3 SP each\nBuy 1 Subclass II node\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Venom Expertise|Venom Expertise]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Combat Acrobatics|Combat Acrobatics]]","x":1000,"y":780,"width":420,"height":215,"color":"3"},
+		{"id":"branch2IV","type":"text","text":"### Tier IV\nLevel 35 · 4 SP each\nBuy 1 Subclass III node\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Toxic Accumulation|Toxic Accumulation]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Guerrilla Warfare|Guerrilla Warfare]]","x":1000,"y":1060,"width":420,"height":215,"color":"3"},
+		{"id":"branch2V","type":"text","text":"### Tier V\nLevel 40 · 5 SP each\nBuy 1 Subclass IV node\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Master Saboteur|Master Saboteur]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Relentless Pursuit|Relentless Pursuit]]","x":1000,"y":1340,"width":420,"height":215,"color":"3"},
+		{"id":"branch2VI","type":"text","text":"### Tier VI · Ascension\nLevel 45 · 6 SP each\nBuy 1 Subclass V node and choose only one Ascension\n\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Ghostrunner|Ghostrunner]]\n- [[Projects/Minecraft RPG Skill Trees/Nodes/Archer/Venom Catalyst|Venom Catalyst]]","x":1000,"y":1620,"width":420,"height":215,"color":"3"}
+	],
+	"edges":[
+		{"id":"start-branch0","fromNode":"start","fromSide":"bottom","toNode":"branch0","toSide":"top"},
+		{"id":"branch0-branch0I","fromNode":"branch0","fromSide":"bottom","toNode":"branch0I","toSide":"top"},
+		{"id":"branch0I-branch0II","fromNode":"branch0I","fromSide":"bottom","toNode":"branch0II","toSide":"top"},
+		{"id":"branch0II-branch0III","fromNode":"branch0II","fromSide":"bottom","toNode":"branch0III","toSide":"top"},
+		{"id":"start-branch1","fromNode":"start","fromSide":"bottom","toNode":"branch1","toSide":"top"},
+		{"id":"branch1-branch1II","fromNode":"branch1","fromSide":"bottom","toNode":"branch1II","toSide":"top"},
+		{"id":"branch1II-branch1III","fromNode":"branch1II","fromSide":"bottom","toNode":"branch1III","toSide":"top"},
+		{"id":"branch1III-branch1IV","fromNode":"branch1III","fromSide":"bottom","toNode":"branch1IV","toSide":"top"},
+		{"id":"branch1IV-branch1V","fromNode":"branch1IV","fromSide":"bottom","toNode":"branch1V","toSide":"top"},
+		{"id":"branch1V-branch1VI","fromNode":"branch1V","fromSide":"bottom","toNode":"branch1VI","toSide":"top"},
+		{"id":"start-branch2","fromNode":"start","fromSide":"bottom","toNode":"branch2","toSide":"top"},
+		{"id":"branch2-branch2II","fromNode":"branch2","fromSide":"bottom","toNode":"branch2II","toSide":"top"},
+		{"id":"branch2II-branch2III","fromNode":"branch2II","fromSide":"bottom","toNode":"branch2III","toSide":"top"},
+		{"id":"branch2III-branch2IV","fromNode":"branch2III","fromSide":"bottom","toNode":"branch2IV","toSide":"top"},
+		{"id":"branch2IV-branch2V","fromNode":"branch2IV","fromSide":"bottom","toNode":"branch2V","toSide":"top"},
+		{"id":"branch2V-branch2VI","fromNode":"branch2V","fromSide":"bottom","toNode":"branch2VI","toSide":"top"}
+	]
+}

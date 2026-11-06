@@ -1,0 +1,55 @@
+filters: 'file.inFolder("Projects/Minecraft RPG Skill Trees/Nodes/Priest")'
+formulas:
+  spent: 'if(note.rpg_buy, note.rpg_sp, 0)'
+properties:
+  file.name:
+    displayName: Upgrade
+  note.rpg_buy:
+    displayName: Buy
+  note.rpg_tier:
+    displayName: Tier
+  note.rpg_level:
+    displayName: Min level
+  note.rpg_sp:
+    displayName: Cost
+  note.rpg_gate:
+    displayName: Requires
+  formula.spent:
+    displayName: SP spent
+views:
+  - type: table
+    name: Hierophant
+    filters: 'note.rpg_branch == "Shared" || note.rpg_branch == "Hierophant"'
+    order:
+      - file.name
+      - note.rpg_buy
+      - note.rpg_tier
+      - note.rpg_level
+      - note.rpg_sp
+      - formula.spent
+      - note.rpg_gate
+    sort:
+      - property: note.rpg_level
+        direction: ASC
+      - property: note.rpg_tier
+        direction: DESC
+    summaries:
+      formula.spent: Sum
+  - type: table
+    name: Inquisitor
+    filters: 'note.rpg_branch == "Shared" || note.rpg_branch == "Inquisitor"'
+    order:
+      - file.name
+      - note.rpg_buy
+      - note.rpg_tier
+      - note.rpg_level
+      - note.rpg_sp
+      - formula.spent
+      - note.rpg_gate
+    sort:
+      - property: note.rpg_level
+        direction: ASC
+      - property: note.rpg_tier
+        direction: DESC
+    summaries:
+      formula.spent: Sum

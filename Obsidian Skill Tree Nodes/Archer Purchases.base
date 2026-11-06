@@ -1,0 +1,55 @@
+filters: file.inFolder("Projects/Minecraft RPG Skill Trees/Nodes/Archer")
+formulas:
+  spent: if(note.rpg_buy, note.rpg_sp, 0)
+properties:
+  file.name:
+    displayName: Upgrade
+  note.rpg_buy:
+    displayName: Buy
+  note.rpg_tier:
+    displayName: Tier
+  note.rpg_level:
+    displayName: Min level
+  note.rpg_sp:
+    displayName: Cost
+  note.rpg_gate:
+    displayName: Requires
+  formula.spent:
+    displayName: SP spent
+views:
+  - type: table
+    name: Marksman
+    filters: note.rpg_branch == "Shared" || note.rpg_branch == "Marksman"
+    order:
+      - file.name
+      - rpg_buy
+      - rpg_tier
+      - rpg_level
+      - rpg_sp
+      - formula.spent
+      - rpg_gate
+    sort:
+      - property: rpg_level
+        direction: ASC
+      - property: rpg_tier
+        direction: DESC
+    summaries:
+      formula.spent: Sum
+  - type: table
+    name: Skirmisher
+    filters: note.rpg_branch == "Shared" || note.rpg_branch == "Skirmisher"
+    order:
+      - file.name
+      - rpg_buy
+      - rpg_tier
+      - rpg_level
+      - rpg_sp
+      - formula.spent
+      - rpg_gate
+    sort:
+      - property: rpg_level
+        direction: ASC
+      - property: rpg_tier
+        direction: DESC
+    summaries:
+      formula.spent: Sum
