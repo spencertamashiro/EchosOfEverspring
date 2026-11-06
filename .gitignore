@@ -26,10 +26,6 @@ crash-reports/
 saves/
 backups/
 staging/
-server/local/
-world/local/
-world/exports/*
-!world/exports/README.md
 *.mca
 *.mcr
 session.lock

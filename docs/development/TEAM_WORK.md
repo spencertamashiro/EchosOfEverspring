@@ -11,9 +11,8 @@ This is a proposed ownership map for parallel human development, not an assignme
 | Campaign and travel | `src/main/java/dev/tentativerpg/{story,travel,map,world}/` | Story authority, region state, teleport permissions | World authors, client, economy |
 | Encounters and bosses | `src/main/java/dev/tentativerpg/{encounters,bosses}/` | Boss phases, threat and encounter lifecycle | Combat, campaign, world authors |
 | Client and art | `src/main/java/dev/tentativerpg/client/`, `src/main/resources/assets/`, `art/` | Screens, input, presentation and original assets | Packet and gameplay contract owners |
-| Integrations and pack | `src/main/java/dev/tentativerpg/compat/`, `modpack/`, `docs/compat-tests/` | Isolated adapters and exact approved pack versions | Platform and affected gameplay owner |
-| World authoring | `world/` | Manually authored Act I/II references, reviewed schematics/exports | Campaign, encounters, pack owner |
-| QA and release | `src/test/`, `docs/testing/`, `server/`, `installer/`, `tools/` | Evidence, deployment/import procedures, release checks | All affected owners |
+| Integrations | `src/main/java/dev/tentativerpg/compat/`, `docs/compat-tests/` | Isolated adapters and compatibility evidence | Platform and affected gameplay owner |
+| QA and release | `src/test/`, `docs/testing/` | Test evidence and mod release checks | All affected owners |
 
 ## Shared contracts
 
@@ -23,4 +22,4 @@ Coordinate changes to registrations, packet registration, build files, shared la
 
 ## Practical split for two contributors
 
-One contributor can take the first Warrior server slice (state, armor identity, stats and unlock validation); the other can independently prepare UI wireframes/original art or work on a copied-world POI inventory. Agree on IDs and read-only view contracts before UI binding. Both review the first build and dedicated-server smoke test. These are suggested assignments only.
+One contributor can take the first Warrior server slice (state, armor identity, stats and unlock validation); the other can independently prepare UI wireframes/original art or review gameplay design and test cases. Agree on IDs and read-only view contracts before UI binding. Both review the first build and dedicated-server smoke test. These are suggested assignments only.

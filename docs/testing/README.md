@@ -9,6 +9,6 @@ No automated test suite, Gradle build, client boot or server boot exists yet.
 | Multiplayer | Dated reports in this directory | Two isolated players, reconnect, death, dimension changes, restart and migrations |
 | Dedicated server | Dated reports in this directory | Headless startup without client classes; server authority and malformed request rejection |
 | Third-party POC | `../compat-tests/` | Exact pinned group, client/server boot, event interactions, permission evidence |
-| World/release | Dated reports in this directory | Copied-save roundtrip, backup/checksums, approved pack cold install and upgrade preservation |
+| Mod release | Dated reports in this directory | Mod build, upgrade and save preservation checks |
 
 Record command, pinned versions, date, environment, expected behavior, observed result and evidence path. Do not commit private logs or local game worlds. Failed and not-run checks remain visible; a checklist is not a passing test.

@@ -1,6 +1,6 @@
 # tentativeRPG
 
-Planning repository for one custom NeoForge RPG mod, an independently authored handcrafted Minecraft world, and an optional launcher-managed modpack. A dedicated server implementation is eventually planned, so all gameplay, networking, and progression systems are designed for headless dedicated server compatibility and multiplayer scalability.
+Development repository for one custom NeoForge RPG mod. A modpack may follow later and is outside the current scope. A dedicated server implementation is eventually planned, so all gameplay, networking, and progression systems are designed for headless dedicated server compatibility and multiplayer scalability.
 
 ## Documentation
 
@@ -13,10 +13,10 @@ Planning repository for one custom NeoForge RPG mod, an independently authored h
 - [Skill tree design and combat progression](docs/SKILL_TREES.md)
 - [Third-party mod compatibility research](docs/MOD_COMPATIBILITY_RESEARCH.md)
 
-Development areas are separated into `src/` (one mod), `art/`, `world/`, `modpack/`, `server/`, `installer/`, and `tools/`. See the development guide for ownership boundaries and reserved paths.
+Development areas are separated into `src/` for the mod, `art/` for original assets, and `docs/` for design and team guidance. See the development guide for ownership boundaries.
 
 ## Current status
 
-This repository contains design documentation and a development directory scaffold. No Java implementation, Gradle build, runnable installer, assembled modpack, or world export is included. Minecraft 1.21.1, NeoForge 21.1.x, and Java 21 are a suggested baseline; exact build versions remain unpinned.
+This repository contains design documentation and a development directory scaffold. No Java implementation or Gradle build is included. Minecraft 1.21.1, NeoForge 21.1.x, and Java 21 are a suggested baseline; exact build versions remain unpinned.
 
 Compatibility and licensing statements are preserved from the supplied research snapshot and have not been independently reverified as part of this import. No dependencies have been installed and no gameplay or multiplayer tests have been run.

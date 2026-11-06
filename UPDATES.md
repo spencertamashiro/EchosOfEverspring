@@ -6,6 +6,13 @@ This document tracks detailed progress logs, milestone summaries, and architectu
 
 ## Update Log
 
+### [2026-11-06] Focus Repository on Mod Development
+
+- Removed empty scaffolding for a future modpack, installer, server deployment, separate campaign-world exports, and supporting tools. Preserved authored game and skill-tree design, original-art and mod source scaffolding, and compatibility research.
+- Updated repository guidance and team workstreams to make the single NeoForge mod the current scope; future pack and world work is deferred. Client/server separation remains a mod requirement.
+- No dependencies or gameplay changes. The repository still has no MDK or runnable build. Next: agree on platform and mod identity, then initialize the mod and implement a small tested vertical slice.
+
+
 ### [2026-11-06] Development Directory Scaffold and Team Boundaries
 
 - Added one-mod source package reservations for all 22 concerns from AGENTS.md, runtime asset/data folders, pure-test and generated-resource reservations. No Java mechanics, loader metadata or Gradle tasks were fabricated.

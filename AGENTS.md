@@ -1,12 +1,12 @@
 # AGENTS.md — Binding Instructions for Codex / AI Coding Agents
 
-**Scope:** Entire repository; any nested `AGENTS.md` is permitted only if it adds stricter, non-conflicting local rules. Read this file, `README.md`, relevant `docs/*`, and actual build files **before editing code**. Our project is **one custom NeoForge RPG mod** plus an independently authored handcrafted Minecraft world and optional launcher-managed modpack (with a dedicated server implementation eventually planned); never reinterpret the repository as multiple gameplay mods.
+**Scope:** Entire repository; any nested `AGENTS.md` is permitted only if it adds stricter, non-conflicting local rules. Read this file, `README.md`, relevant `docs/*`, and actual build files **before editing code**. Our current project is **one custom NeoForge RPG mod**. A handcrafted campaign world and launcher-managed modpack are future work outside this repository scope; preserve their design context and dedicated-server compatibility. Never reinterpret the repository as multiple gameplay mods.
 
 ## 0. First-step environment check
 
 1. Run `pwd`, inspect the repository root and `git status --short`; **do not assume** that any README tree entry exists.
 2. Check for `gradlew`, Gradle files, Java sources, exact Minecraft version, NeoForge patch, Java toolchain and mod ID. No source/build files present = planning repository, **not** a running mod.
-3. Read `UPDATES.md`, `docs/SKILL_TREES.md` (full draft), `docs/GAME_DESIGN.md`, `docs/MOD_COMPATIBILITY_RESEARCH.md`, `docs/MANUAL_WORLD_PIPELINE.md`, `docs/INSTALLER_AND_ENV.md` and `docs/LEGAL_AND_RELEASE.md` for affected work.
+3. Read `UPDATES.md`, `docs/SKILL_TREES.md` (full draft), `docs/GAME_DESIGN.md`, `docs/MOD_COMPATIBILITY_RESEARCH.md` for affected work.
 4. Read the latest pertinent ADR before altering a decided behavior. Prefer direct product requirements over unverified assistant proposals; preserve unknowns as unknowns.
 5. Don't use dynamic/latest dependency versions, fabricated release IDs, guessed mod metadata or outdated Minecraft package paths. The **suggested** baseline is Minecraft **1.21.1 / NeoForge 21.1.x / Java 21**, not yet a pinned reproducible build.
 
@@ -31,13 +31,12 @@ No version or license claims in `docs/MOD_COMPATIBILITY_RESEARCH.md` mean that a
 
 - `src/main/java/<base_package>/` = exactly one mod. Small, focused packages: `registry`, `player`, `progression`, `classsystem`, `skills`, `abilities`, `stats`, `combat`, `magic`, `equipment`, `items`, `economy`, `story`, `travel`, `map`, `encounters`, `bosses`, `world`, `networking`, `commands`, `client`, `compat`.
 - `src/main/resources/assets/<modid>/` = our licensed client assets; `src/main/resources/data/<modid>/` = proper 1.21.1 datapack structures and custom data with actual loaders. No accidental third-party content.
-- `modpack/` = configs, launcher manifests, optional pack scripts, datapacks/resourcepacks; **not an independent Java mod**. Never commit downloaded dependency JARs unless their specific redistribution rights and intended platform packaging have been approved/documented.
-- `world/` = original hand-authored map manifests/schematics/exports. Keep working copies, backups, `session.lock`, playerdata, caches, secrets and massive temporary regions out of Git. Use release artifacts or Git LFS for deliberately selected map exports.
+- Modpack, installer, deployment and separate campaign-world deliverables are deferred. Do not add their scaffolding until explicitly requested. Keep saves, dependency JARs, secrets and temporary game data out of Git.
 - `docs/` = requirements, researched evidence, version matrix, ADRs and test procedures. Do not create hundreds of empty stubs simply to mirror the proposed tree.
 
 ## 4. Third-party mod integration rules
 
-**Gate A — eligibility:** Verify exact `1.21.1 + NeoForge` file, official host, project and file ID, dependency graph, environment (client/server), license including *assets*, platform-specific pack inclusion permission, and distribution method. An official public listing is **not** blanket permission to ship a mod JAR. Pin in `modpack/manifests/` **only after** confirming selected versions. Read legal policy before adding to release manifests.
+**Gate A — eligibility:** Verify exact `1.21.1 + NeoForge` file, official host, project and file ID, dependency graph, environment (client/server), license including *assets*, platform-specific pack inclusion permission, and distribution method. An official public listing is **not** blanket permission to ship a mod JAR. Pin any adopted integration only after confirming selected versions. Read legal policy before adding to release manifests.
 
 **Gate B — proof-of-concept:** Each integration starts from a small throwaway sandbox or isolated branch. At minimum build + client + dedicated server startup; success/failure logs; update `docs/COMPATIBILITY_MATRIX.md` with observed findings. Runtime availability is *not* proven by website labels.
 
@@ -72,17 +71,6 @@ No version or license claims in `docs/MOD_COMPATIBILITY_RESEARCH.md` mean that a
 - Keep build-only WorldEdit operations on staging worlds; region and block changes can destroy player progression, loot and NPCs. Validate world checksums / backups before release.
 - World build scripts may make **reproducible, opt-in modifications** to a test copy only, never run automatically on a player's world.
 
-## 6A. Windows installer and `.env` contract (binding)
-
-- **Canonical variables**, defined in [`.env.example`](.env.example): `MINECRAFT_DIR` (read-only discovery hint), `MINECRAFT_INSTANCE_DIR` (**selected launcher game root**, not necessarily vanilla), `RPG_INSTALLER_STAGING_DIR` (safe app-owned staging), `RPG_PACK_FILE`, `RPG_WORLD_ARCHIVE`, `RPG_LAUNCHER`, `RPG_MODPACK_VERSION`.
-- Keep a local **`.env` ignored by Git**. Expand Windows `%APPDATA%`/`%LOCALAPPDATA%` on **the target player's system**. Never substitute the developer's absolute path into release assets or install a modpack into guessed `%APPDATA%\.minecraft`.
-- The recommended installer uses **authorized launcher imports** of `.mrpack`/CurseForge manifest; do not write your own unapproved third-party mod JAR downloader or bundle Minecraft executable/JARs, game assets, tokens or unsupported launcher APIs. See `docs/INSTALLER_AND_ENV.md` and `installer/README.txt`.
-- `installer/setup.iss` is a staging EXE blueprint; `installer/build_installer.ps1` reads `.env` to validate release payloads; `installer/prepare_instance.ps1` is an **opt-in** save import helper. None is a tested end-to-end one-click installer. Do not claim it is.
-- An instance path must be confirmed and validated (`mods/`, world root, write permission, canonical path) before copying content. No silent overwrites of saves, block mods, mods, configs, `options.txt`, accounts or EULA prompts. All ZIP entries must be normalized, path-contained and checked against zip-slip/drive/symlink/excessive-size attacks.
-- Store original map/world saves outside the EXE and repository until deliberately exported and licensed. Install world as a new unique save; uninstall or upgrades **must not delete saves**, playerdata, mods or shared launcher profiles by default.
-- Installer acceptance testing: clean Windows VM/user, selected custom instance, no Minecraft installed, missing launcher, relocated launcher, path with spaces/unicode, already existing save, malformed zip, no permission, integrity check, uninstall/upgrade and repeated run. Use actual logs.
-- **Build artifact guard:** no compiled EXE, approved `.mrpack`, world ZIP or game launcher has been produced in a docs-only seed. `-ValidateOnly` cannot be counted as installer QA.
-
 ## 7. Required checks / commands
 
 1. Before editing: `git status --short` and inspect actual repo, config and relevant docs.
@@ -91,7 +79,6 @@ No version or license claims in `docs/MOD_COMPATIBILITY_RESEARCH.md` mean that a
 4. Integration: vanilla/custom baseline first; then toggle **one dependency group at a time**; test client render, headless dedicated server, multiplayer, reload, relog, death, map loading and upgrade path. Test optional-missing-mod cases if declared optional.
 5. CI: never mark successful builds/tests unless there are logs; report not-run with reason. Avoid `./gradlew ...` on a docs-only repository and then claiming test coverage.
 6. For world changes: verify an isolated copied save, dimension/POI references, protection boundaries, backups and multiplayer teleport cases.
-7. For installer changes: validate `.env` format, Inno Setup source paths, approved manifests, staging behavior, and safe world-import logic; do not claim pass without Windows execution.
 
 ## 8. Mandatory output of every agent task
 
