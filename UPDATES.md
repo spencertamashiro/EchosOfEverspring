@@ -5,6 +5,11 @@ This document tracks detailed progress logs, milestone summaries, and architectu
 ---
 
 ## Update Log
+### [2026-11-09] Fix the RPG Series melee-skill crash
+
+- Pinned Spell Engine 1.9.8 for Minecraft 1.21.1 on NeoForge. The release fixes [upstream issue #174](https://github.com/ZsoltMolnarrr/SpellEngine/issues/174), which caused a server crash when a melee skill broadcast effects without Better Combat installed.
+- Clarified the roles of Spell Engine, Skill Tree (RPG Series), Pufferfish's Skills and Player Animator in the combined playtest guide.
+- The isolated client joined a copied test world. The integrated server processed a Swipe attack-effects packet and stayed running. The Gradle build, unit tests and all three dedicated GameTests passed.
 ### [2026-11-08] Match skill connectors to tab themes
 
 - Replaced the global gray connector with a solid color per tab. The four class tabs use their existing title accents and Weapon Skills uses cool steel blue. Connector geometry and purchase rules stay the same.

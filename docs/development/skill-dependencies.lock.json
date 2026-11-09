@@ -37,12 +37,12 @@
   },
   {
     "project": "spell-engine",
-    "version": "1.9.7+1.21.1-neoforge",
-    "id": "iQRJDwWn",
+    "version": "1.9.8+1.21.1-neoforge",
+    "id": "rZXWJFxX",
     "license": "GPL-3.0-only",
-    "file": "spell_engine-neoforge-1.9.7+1.21.1.jar",
-    "url": "https://cdn.modrinth.com/data/XvoWJaA2/versions/iQRJDwWn/spell_engine-neoforge-1.9.7%2B1.21.1.jar",
-    "sha512": "b694d9d0e0f7298b707d5770277b2ef02a80b1bbb825f5e5f5280bebb2a43fd028e24dbe0c02212d824b57d05cb3b92dbe06c9f3c1183c8ec04cc95c3b32f093"
+    "file": "spell_engine-neoforge-1.9.8+1.21.1.jar",
+    "url": "https://cdn.modrinth.com/data/XvoWJaA2/versions/rZXWJFxX/spell_engine-neoforge-1.9.8%2B1.21.1.jar",
+    "sha512": "90af94bb1c07b0337b081268130d2d5d89def0b2092227cd1dcbf7e2b6dd1e00ceb86d11b30cb98fff25d232e805f470cd4eecad43d03ea1372c0b6cfa1647ff"
   },
   {
     "project": "playeranimator",

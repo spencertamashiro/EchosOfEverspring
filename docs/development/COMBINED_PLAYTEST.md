@@ -15,9 +15,11 @@ With Java 21, run **gradlew.bat runClient "-PplaytestWorld=Echoes of Everspring 
 
 ## Loaded integrations
 
-Easy NPC Core supplies NPC entities. FTB Quests, Library, and Teams provide quest UI and team progress. Tooltip Overhaul provides client tooltip rendering support. Pufferfish's Skills and Skill Tree (RPG Series) provide the skill menu and stock weapon tree. Spell Engine, Spell Power and Ranged Weapon API provide the upstream spell and weapon framework. Accessories, Curios, owo-lib, Forgified Fabric API, Player Animator, Cloth Config and Architectury provide runtime support.
+Easy NPC Core supplies NPC entities. FTB Quests, Library, and Teams provide quest UI and team progress. Tooltip Overhaul provides client tooltip rendering support. **Pufferfish's Skills** runs the skill menu, point spending and unlock tracking. **Skill Tree (RPG Series)** supplies the stock Weapon Skills tree, its passive effects and its ability upgrades. **Spell Engine** runs combat abilities and ships the RPG Series weapon spells and their animation assets. For example, Spell Engine defines and executes Swipe, the tree supplies its upgrades, and Player Animator plays the character animation. Spell Power and Ranged Weapon API provide supporting attributes and hooks. Accessories, Curios, owo-lib, Forgified Fabric API, Player Animator, Cloth Config and Architectury provide runtime support.
 
 The [original dependency guide](PROTOTYPES.md) covers the NPC, quests and tooltip stack. The [skill dependency lock](skill-dependencies.lock.json) records version IDs, licenses, official download URLs and checksums for the skill stack. Local staging under run is ignored by Git. Use the parent JAR in the combined instance.
+
+Spell Engine 1.9.8 fixes a melee-skill crash in 1.9.7 when Better Combat is absent. Before launching an existing development instance, move the old Spell Engine 1.9.7 JAR out of its `mods` folder. The Gradle staging task copies the pinned version alongside any files already present.
 
 ## Prototype boundaries
 
