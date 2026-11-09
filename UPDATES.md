@@ -6,6 +6,13 @@ This document tracks detailed progress logs, milestone summaries, and architectu
 
 ## Update Log
 
+### [2026-11-08] Integrate NPC dialogue and item tooltips
+
+- Added a single TentativeRPG Gradle build for Minecraft 1.21.1, NeoForge 21.1.265 and Java 21. The JAR combines the local RPGtestingNPC dialogue and FTB Quest prototype with the standalone Tooltip RPG renderer. It keeps the legacy NPC bindings, quest IDs, voice locations and item tooltip metadata.
+- The client owns dialogue rendering, voices and animated item cards. The server validates dialogue choices and supply turn-ins. The prototype cast and chapters are development content. Original rose and thorn ornaments accompany Minecraft's container textures.
+- The build, both tooltip unit tests and both dedicated-server NPC GameTests passed. The development client reached resource and audio initialization with Tooltip Overhaul 2.1.0. See [compatibility checks](docs/COMPATIBILITY_MATRIX.md) and the [integration guide](docs/development/PROTOTYPES.md).
+- The next gameplay slice is the server-owned campaign quest flow. Live multiplayer and manual interaction with the combined client UI are pending.
+
 ### [2026-11-06] Focus Repository on Mod Development
 
 - Removed empty scaffolding for a future modpack, installer, server deployment, separate campaign-world exports, and supporting tools. Preserved authored game and skill-tree design, original-art and mod source scaffolding, and compatibility research.
