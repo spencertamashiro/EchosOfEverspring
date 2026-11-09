@@ -1,0 +1,41 @@
+{
+  "title": {
+    "text": "Everspring • Priest",
+    "color": "#f5d18c"
+  },
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "unlocked_by_default": true,
+  "starting_points": 49,
+  "spent_points_limit": 49,
+  "background": {
+    "texture": "everspring_skills:textures/gui/priest_atlas.png",
+    "width": 768,
+    "height": 512,
+    "position": "fill"
+  },
+  "colors": {
+    "connections": {
+      "locked": {
+        "fill": "#f5d18c",
+        "stroke": "#f5d18c"
+      },
+      "available": {
+        "fill": "#f5d18c",
+        "stroke": "#f5d18c"
+      },
+      "unlocked": {
+        "fill": "#f5d18c",
+        "stroke": "#f5d18c"
+      },
+      "excluded": {
+        "fill": "#f5d18c",
+        "stroke": "#f5d18c"
+      }
+    }
+  }
+}

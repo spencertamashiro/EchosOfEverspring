@@ -80,6 +80,12 @@ No version or license claims in `docs/MOD_COMPATIBILITY_RESEARCH.md` mean that a
 5. CI: never mark successful builds/tests unless there are logs; report not-run with reason. Avoid `./gradlew ...` on a docs-only repository and then claiming test coverage.
 6. For world changes: verify an isolated copied save, dimension/POI references, protection boundaries, backups and multiplayer teleport cases.
 
+### Git integration and pushes
+
+- When asked to merge work, confirm the target branch, fetch its upstream, and inspect the incoming changes and working tree. Preserve unrelated changes. Run the relevant build and tests after resolving any conflicts.
+- When asked to push, commit only the intended changes and push to the confirmed remote branch after checks pass. Use a pull request for protected branches. Force-pushes and direct merges into the default branch require explicit authorization. Keep saves, runtime logs, credentials, and third-party dependency JARs out of commits.
+- Verify the pushed commit against the remote and report the branch, commit SHA, and test results.
+
 ## 8. Mandatory output of every agent task
 
 In the final task summary state: **(a)** files changed, **(b)** important assumptions vs confirmed sources, **(c)** any dependencies added with pinned IDs/license and official URLs, **(d)** tests run plus actual pass/fail output, **(e)** multiplayer/world impact, **(f)** unresolved issues and next vertical slice. No invented screenshots, source commits, external permissions, compiled mods or in-game test results.

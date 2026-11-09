@@ -1,0 +1,912 @@
+{
+  "path": {
+    "title": {
+      "text": "Mage · World Tree",
+      "color": "#bda6ff"
+    },
+    "description": "Open your class paths. Choose a single specialization for this build.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "cost": 0,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_crest_available.png",
+        "locked": "everspring_skills:textures/gui/mage_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_crest_excluded.png"
+      }
+    }
+  },
+  "mana_reservoir": {
+    "title": {
+      "text": "Mana Reservoir",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\n+8% maximum mana\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "arcane_meditation": {
+    "title": {
+      "text": "Arcane Meditation",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\n+5% passive mana regeneration\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "focused_casting": {
+    "title": {
+      "text": "Focused Casting",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\n+3% magic damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "quick_incantation": {
+    "title": {
+      "text": "Quick Incantation",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\n+5% spellcasting speed\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "arcane_recovery": {
+    "title": {
+      "text": "Arcane Recovery",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\nAfter 4s without casting, mana regeneration increases 15%\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "mana_conservation": {
+    "title": {
+      "text": "Mana Conservation",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\nUtility spells cost 10% less mana\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "elemental_familiarity": {
+    "title": {
+      "text": "Elemental Familiarity",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\nElemental status effects inflicted by spells last 10% longer\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "spell_stabilization": {
+    "title": {
+      "text": "Spell Stabilization",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\nTaking damage during casting incurs 10% less interruption buildup\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "arcane_replenishment": {
+    "title": {
+      "text": "Arcane Replenishment",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nDefeating an enemy with a spell restores 4% max mana; 3s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "efficient_channeling": {
+    "title": {
+      "text": "Efficient Channeling",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nChanneled spells consume 8% less mana\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "magical_awareness": {
+    "title": {
+      "text": "Magical Awareness",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nReveal damage type of enemies that hit you\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "emergency_reserve": {
+    "title": {
+      "text": "Emergency Reserve",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nOnce every 30s, casting below 15% mana reduces spell mana cost by 40%\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "path_battlemage": {
+    "title": {
+      "text": "Battlemage",
+      "color": "#bda6ff"
+    },
+    "description": {
+      "text": "Specialization · level 25 in campaign\nMagic staves, offensive spellbooks.\nChoose one branch per class."
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "cost": 0,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_crest_available.png",
+        "locked": "everspring_skills:textures/gui/mage_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_crest_excluded.png"
+      }
+    },
+    "extra_description": "Passive · Lv 27: Elemental Resonance, Mana Surge, Volatile Casting, Arcane Hunger\nActive · Lv 30: Meteorfall, Arcane Nova, Elemental Tempest, Overchannel"
+  },
+  "destructive_magic": {
+    "title": {
+      "text": "Destructive Magic",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Battlemage · Tier II · 2 SP\nCampaign level 25\n\n+6% staff spell damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "elemental_reach": {
+    "title": {
+      "text": "Elemental Reach",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Battlemage · Tier II · 2 SP\nCampaign level 25\n\nAoE spells gain +8% radius\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "lingering_flames": {
+    "title": {
+      "text": "Lingering Flames",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Battlemage · Tier III · 3 SP\nCampaign level 30\n\nApplied elemental damage-over-time effects last 15% longer\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "arcane_detonation": {
+    "title": {
+      "text": "Arcane Detonation",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Battlemage · Tier III · 3 SP\nCampaign level 30\n\nSpells hitting at least 3 enemies refund 5% of mana cost\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "elemental_saturation": {
+    "title": {
+      "text": "Elemental Saturation",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Battlemage · Tier IV · 4 SP\nCampaign level 35\n\nRepeated hits with the same element build status effects 10% faster\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "spell_amplification": {
+    "title": {
+      "text": "Spell Amplification",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Battlemage · Tier IV · 4 SP\nCampaign level 35\n\nFully charged spells deal +12% damage but cost 10% more mana\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "elemental_mastery": {
+    "title": {
+      "text": "Elemental Mastery",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Battlemage · Tier V · 5 SP\nCampaign level 40\n\nTriggering an elemental status reaction restores 3% max mana; 5s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "cataclysm": {
+    "title": {
+      "text": "Cataclysm",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Battlemage · Tier V · 5 SP\nCampaign level 40\n\nOnce every 20s, an AoE spell hitting 3+ enemies deals +15% damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "primal_convergence": {
+    "title": {
+      "text": "Primal Convergence",
+      "color": "#bda6ff"
+    },
+    "description": {
+      "text": "Battlemage · Tier VI · 6 SP\nCampaign level 45\n\nCasting 3 distinct elements within 12s makes the next damaging spell apply 20% more status buildup; 20s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_crest_available.png",
+        "locked": "everspring_skills:textures/gui/mage_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_crest_excluded.png"
+      }
+    }
+  },
+  "mana_furnace": {
+    "title": {
+      "text": "Mana Furnace",
+      "color": "#bda6ff"
+    },
+    "description": {
+      "text": "Battlemage · Tier VI · 6 SP\nCampaign level 45\n\nWhen below 25% mana, the next offensive spell costs 30% less and deals +10% damage; 25s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_crest_available.png",
+        "locked": "everspring_skills:textures/gui/mage_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_crest_excluded.png"
+      }
+    }
+  },
+  "path_arcanist": {
+    "title": {
+      "text": "Arcanist",
+      "color": "#bda6ff"
+    },
+    "description": {
+      "text": "Specialization · level 25 in campaign\nWands, crystals, orbs, utility spellbooks.\nChoose one branch per class."
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "cost": 0,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_crest_available.png",
+        "locked": "everspring_skills:textures/gui/mage_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_crest_excluded.png"
+      }
+    },
+    "extra_description": "Passive · Lv 27: Arcane Efficiency, Spellweaver, Weakness Insight, Crystal Conservation\nActive · Lv 30: Spell Echo, Arcane Reversal, Runic Seal, Time Fracture"
+  },
+  "wand_proficiency": {
+    "title": {
+      "text": "Wand Proficiency",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Arcanist · Tier II · 2 SP\nCampaign level 25\n\nWand spells consume 6% less mana\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "crystal_handling": {
+    "title": {
+      "text": "Crystal Handling",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Arcanist · Tier II · 2 SP\nCampaign level 25\n\n+1 crystal carrying capacity\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "rune_expertise": {
+    "title": {
+      "text": "Rune Expertise",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Arcanist · Tier III · 3 SP\nCampaign level 30\n\nRunes and trap spells deal +10% damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "arcane_insight": {
+    "title": {
+      "text": "Arcane Insight",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Arcanist · Tier III · 3 SP\nCampaign level 30\n\nOrbs reveal enemy resistances and vulnerabilities\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "dual_casting": {
+    "title": {
+      "text": "Dual Casting",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Arcanist · Tier IV · 4 SP\nCampaign level 35\n\nAlternating between two wand spells grants next cast +8% damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "crystal_resonance": {
+    "title": {
+      "text": "Crystal Resonance",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Arcanist · Tier IV · 4 SP\nCampaign level 35\n\nActivating a crystal restores 5% max mana; 10s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "grand_arcanum": {
+    "title": {
+      "text": "Grand Arcanum",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Arcanist · Tier V · 5 SP\nCampaign level 40\n\nApplying 2 different magic statuses to a target reduces its magic resistance by 8% for 5s\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "runic_mastery": {
+    "title": {
+      "text": "Runic Mastery",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Arcanist · Tier V · 5 SP\nCampaign level 40\n\nRunes and traps persist 25% longer, without increasing maximum active count\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_node_available.png",
+        "locked": "everspring_skills:textures/gui/mage_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_node_excluded.png"
+      }
+    }
+  },
+  "grand_equation": {
+    "title": {
+      "text": "Grand Equation",
+      "color": "#bda6ff"
+    },
+    "description": {
+      "text": "Arcanist · Tier VI · 6 SP\nCampaign level 45\n\nAlternating 3 different spell effects within 10s grants the next wand spell 20% lower mana cost and +10% damage; 18s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_crest_available.png",
+        "locked": "everspring_skills:textures/gui/mage_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_crest_excluded.png"
+      }
+    }
+  },
+  "nullscript": {
+    "title": {
+      "text": "Nullscript",
+      "color": "#bda6ff"
+    },
+    "description": {
+      "text": "Arcanist · Tier VI · 6 SP\nCampaign level 45\n\nOnce every 25s, successfully interrupting or absorbing an enemy spell grants an 8% max-HP shield for 5s; capped and nonstacking\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/mage_crest_available.png",
+        "locked": "everspring_skills:textures/gui/mage_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/mage_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/mage_crest_excluded.png"
+      }
+    }
+  }
+}

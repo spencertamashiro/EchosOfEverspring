@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.tentativerpg.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ConnectionRendererMixin", "TextureTickSetMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

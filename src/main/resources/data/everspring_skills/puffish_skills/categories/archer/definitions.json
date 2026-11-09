@@ -1,0 +1,912 @@
+{
+  "path": {
+    "title": {
+      "text": "Archer · World Tree",
+      "color": "#bef6ca"
+    },
+    "description": "Open your class paths. Choose a single specialization for this build.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 0,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_crest_available.png",
+        "locked": "everspring_skills:textures/gui/archer_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_crest_excluded.png"
+      }
+    }
+  },
+  "steady_hands": {
+    "title": {
+      "text": "Steady Hands",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\nProjectile spread reduced by 10%\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:arrow"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "light_footed": {
+    "title": {
+      "text": "Light Footed",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\n+5% movement speed while holding ranged weapons\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:arrow"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "sharpened_ammunition": {
+    "title": {
+      "text": "Sharpened Ammunition",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\n+3% physical ranged damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:arrow"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "efficient_draw": {
+    "title": {
+      "text": "Efficient Draw",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\nBow draw time reduced by 5%\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:arrow"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "eagle_vision": {
+    "title": {
+      "text": "Eagle Vision",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\nWeak points highlighted while aiming\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "nimble_recovery": {
+    "title": {
+      "text": "Nimble Recovery",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\nDodging after a ranged attack costs 10% less stamina\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "ammunition_recovery": {
+    "title": {
+      "text": "Ammunition Recovery",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\n10% chance to recover standard ammunition after a successful hit\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "swift_reload": {
+    "title": {
+      "text": "Swift Reload",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\nCrossbow reload time reduced by 8%\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "tactical_retreat": {
+    "title": {
+      "text": "Tactical Retreat",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nDodging away from an enemy grants +10% movement speed for 2s; 8s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:target"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "weak_point_mastery": {
+    "title": {
+      "text": "Weak Point Mastery",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nWeak-point hits deal +10% damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:target"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "efficient_hunter": {
+    "title": {
+      "text": "Efficient Hunter",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nLanding 3 consecutive ranged hits restores 5% max stamina; 6s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:target"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "ranged_survival": {
+    "title": {
+      "text": "Ranged Survival",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nAfter damage from an enemy within 5 blocks, gain 8% damage resistance for 3s; 15s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:target"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "path_marksman": {
+    "title": {
+      "text": "Marksman",
+      "color": "#bef6ca"
+    },
+    "description": {
+      "text": "Specialization · level 25 in campaign\nLongbows, shortbows.\nChoose one branch per class."
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 0,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_crest_available.png",
+        "locked": "everspring_skills:textures/gui/archer_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_crest_excluded.png"
+      }
+    },
+    "extra_description": "Passive · Lv 27: Deadeye, Eagle Eye, Vital Strike, Predator's Focus\nActive · Lv 30: Piercing Shot, Rain of Arrows, Hunter's Mark, Execution Shot"
+  },
+  "longshot": {
+    "title": {
+      "text": "Longshot",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Marksman · Tier II · 2 SP\nCampaign level 25\n\nProjectile gravity reduced by 10%\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "patient_aim": {
+    "title": {
+      "text": "Patient Aim",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Marksman · Tier II · 2 SP\nCampaign level 25\n\nStationary aiming for 1.5s grants +8% projectile damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "armor_piercer": {
+    "title": {
+      "text": "Armor Piercer",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Marksman · Tier III · 3 SP\nCampaign level 30\n\nFully drawn arrows ignore 8% of target armor\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "steady_breathing": {
+    "title": {
+      "text": "Steady Breathing",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Marksman · Tier III · 3 SP\nCampaign level 30\n\nAiming movement penalty reduced by 20%\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "precision_mastery": {
+    "title": {
+      "text": "Precision Mastery",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Marksman · Tier IV · 4 SP\nCampaign level 35\n\nConsecutive weak-point hits gain +3% per hit, up to +9%\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "eagle_s_reach": {
+    "title": {
+      "text": "Eagle's Reach",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Marksman · Tier IV · 4 SP\nCampaign level 35\n\nFully drawn arrows travel 15% faster\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "perfect_shot": {
+    "title": {
+      "text": "Perfect Shot",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Marksman · Tier V · 5 SP\nCampaign level 40\n\nWeak-point hit after 2s aiming deals additional 15% damage; 8s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "hunter_s_instinct": {
+    "title": {
+      "text": "Hunter's Instinct",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Marksman · Tier V · 5 SP\nCampaign level 40\n\nWeak-point hit reduces subclass active remaining cooldown by 1s; 4s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "true_sight": {
+    "title": {
+      "text": "True Sight",
+      "color": "#bef6ca"
+    },
+    "description": {
+      "text": "Marksman · Tier VI · 6 SP\nCampaign level 45\n\nFirst fully drawn weak-point hit on a fresh target applies Marked Opening: +8% damage from your next 2 arrows; 18s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_crest_available.png",
+        "locked": "everspring_skills:textures/gui/archer_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_crest_excluded.png"
+      }
+    }
+  },
+  "final_arrow": {
+    "title": {
+      "text": "Final Arrow",
+      "color": "#bef6ca"
+    },
+    "description": {
+      "text": "Marksman · Tier VI · 6 SP\nCampaign level 45\n\nAfter 3 consecutive weak-point hits, next fully drawn shot deals +25% direct damage; must be fired within 5s; 20s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_crest_available.png",
+        "locked": "everspring_skills:textures/gui/archer_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_crest_excluded.png"
+      }
+    }
+  },
+  "path_skirmisher": {
+    "title": {
+      "text": "Skirmisher",
+      "color": "#bef6ca"
+    },
+    "description": {
+      "text": "Specialization · level 25 in campaign\nCrossbows, throwing knives, blowguns, slings.\nChoose one branch per class."
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "cost": 0,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_crest_available.png",
+        "locked": "everspring_skills:textures/gui/archer_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_crest_excluded.png"
+      }
+    },
+    "extra_description": "Passive · Lv 27: Hit and Run, Toxic Precision, Quick Hands, Escape Artist\nActive · Lv 30: Venom Barrage, Smoke Bomb, Grappling Bolt, Trickshot"
+  },
+  "quick_hands": {
+    "title": {
+      "text": "Quick Hands",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Skirmisher · Tier II · 2 SP\nCampaign level 25\n\nReloading and throwing-weapon attack speed +8%\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "lightweight_gear": {
+    "title": {
+      "text": "Lightweight Gear",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Skirmisher · Tier II · 2 SP\nCampaign level 25\n\nDodging costs 8% less stamina\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "venom_expertise": {
+    "title": {
+      "text": "Venom Expertise",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Skirmisher · Tier III · 3 SP\nCampaign level 30\n\nApplied poison lasts 15% longer\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "combat_acrobatics": {
+    "title": {
+      "text": "Combat Acrobatics",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Skirmisher · Tier III · 3 SP\nCampaign level 30\n\nRanged attacks within 2s of dodging deal +8% damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "toxic_accumulation": {
+    "title": {
+      "text": "Toxic Accumulation",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Skirmisher · Tier IV · 4 SP\nCampaign level 35\n\nRepeated poison applications increase poison buildup by 5%, up to +15%\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "guerrilla_warfare": {
+    "title": {
+      "text": "Guerrilla Warfare",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Skirmisher · Tier IV · 4 SP\nCampaign level 35\n\nHits from a target's side or rear deal +10% damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "master_saboteur": {
+    "title": {
+      "text": "Master Saboteur",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Skirmisher · Tier V · 5 SP\nCampaign level 40\n\nApplying a status slows movement 8% for 3s; bosses resist\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "relentless_pursuit": {
+    "title": {
+      "text": "Relentless Pursuit",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Skirmisher · Tier V · 5 SP\nCampaign level 40\n\nDodging after hitting a status-afflicted target restores 6% max stamina; 5s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_node_available.png",
+        "locked": "everspring_skills:textures/gui/archer_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_node_excluded.png"
+      }
+    }
+  },
+  "ghostrunner": {
+    "title": {
+      "text": "Ghostrunner",
+      "color": "#bef6ca"
+    },
+    "description": {
+      "text": "Skirmisher · Tier VI · 6 SP\nCampaign level 45\n\nAfter using a mobility active or perfect dodge, next ranged hit within 4s applies 20% extra status buildup; 15s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_crest_available.png",
+        "locked": "everspring_skills:textures/gui/archer_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_crest_excluded.png"
+      }
+    }
+  },
+  "venom_catalyst": {
+    "title": {
+      "text": "Venom Catalyst",
+      "color": "#bef6ca"
+    },
+    "description": {
+      "text": "Skirmisher · Tier VI · 6 SP\nCampaign level 45\n\nApplying poison to a target already suffering another status deals an additional 20% weapon damage (not a new hit); 8s cooldown per target\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/archer_crest_available.png",
+        "locked": "everspring_skills:textures/gui/archer_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/archer_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/archer_crest_excluded.png"
+      }
+    }
+  }
+}

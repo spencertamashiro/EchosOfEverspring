@@ -1,0 +1,38 @@
+{
+  "title": "Weapon Skills",
+  "icon": {
+    "type": "texture",
+    "data": {
+      "texture": "skill_tree_rpgs:textures/gui/weapon_skills.png"
+    }
+  },
+  "unlocked_by_default": true,
+  "spent_points_limit": 6,
+  "exclusive_root": false,
+  "background": {
+    "texture": "everspring_skills:textures/gui/weapon_atlas.png",
+    "width": 768,
+    "height": 512,
+    "position": "fill"
+  },
+  "colors": {
+    "connections": {
+      "locked": {
+        "fill": "#a6b6cd",
+        "stroke": "#a6b6cd"
+      },
+      "available": {
+        "fill": "#a6b6cd",
+        "stroke": "#a6b6cd"
+      },
+      "unlocked": {
+        "fill": "#a6b6cd",
+        "stroke": "#a6b6cd"
+      },
+      "excluded": {
+        "fill": "#a6b6cd",
+        "stroke": "#a6b6cd"
+      }
+    }
+  }
+}

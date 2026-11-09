@@ -1,0 +1,101 @@
+[
+  {
+    "project": "skill-tree",
+    "version": "1.4.4+1.21.1-neoforge",
+    "id": "wwvXxexd",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "file": "skill_tree-neoforge-1.4.4+1.21.1.jar",
+    "url": "https://cdn.modrinth.com/data/PjDhruSC/versions/wwvXxexd/skill_tree-neoforge-1.4.4%2B1.21.1.jar",
+    "sha512": "98edc3563344a587df949be2b473368864519a3a5dddec3fb8e444119145b6bd6e1729d9cb34171e021a685b5002b72c924c2a1635e7ebf28f30b018c963908f"
+  },
+  {
+    "project": "forgified-fabric-api",
+    "version": "0.116.15+2.3.6+1.21.1",
+    "id": "C4eskNuR",
+    "license": "Apache-2.0",
+    "file": "forgified-fabric-api-0.116.15+2.3.6+1.21.1.jar",
+    "url": "https://cdn.modrinth.com/data/Aqlf1Shp/versions/C4eskNuR/forgified-fabric-api-0.116.15%2B2.3.6%2B1.21.1.jar",
+    "sha512": "470ae4e8569484e6942a2f7e09a37ae58a58e0ad44f49f0d483db88024db19d41bfac3c68221c38623829871ade9d89bc5aa31cf0e682e798b2f9029b808011d"
+  },
+  {
+    "project": "ranged-weapon-api",
+    "version": "3.0.0+1.21.1-neoforge",
+    "id": "WxNYN3Zh",
+    "license": "MIT",
+    "file": "ranged_weapon_api-neoforge-3.0.0+1.21.1.jar",
+    "url": "https://cdn.modrinth.com/data/AqaIIO6D/versions/WxNYN3Zh/ranged_weapon_api-neoforge-3.0.0%2B1.21.1.jar",
+    "sha512": "e6a1c0de80b07f65874e2d9999ef7e98f7b5cce3c871a1bec7cbb74c693b34080563c25bd87c36fccd42f25c51dee183192e97d65ebd2c780a8a08adde13fd68"
+  },
+  {
+    "project": "skills",
+    "version": "0.16.8",
+    "id": "iHtYs3aQ",
+    "license": "LicenseRef-Custom",
+    "file": "puffish_skills-0.16.8-1.21-neoforge.jar",
+    "url": "https://cdn.modrinth.com/data/hqQqvaa4/versions/iHtYs3aQ/puffish_skills-0.16.8-1.21-neoforge.jar",
+    "sha512": "7c34b3e0fcd5fb7cdad4434144e627b2819bb3e401fdc6054aa6d9984517d2f761503d6e357ac98869e08840133c9c552c2b3e3d5847eca19f8e01d4627f7f67"
+  },
+  {
+    "project": "spell-engine",
+    "version": "1.9.7+1.21.1-neoforge",
+    "id": "iQRJDwWn",
+    "license": "GPL-3.0-only",
+    "file": "spell_engine-neoforge-1.9.7+1.21.1.jar",
+    "url": "https://cdn.modrinth.com/data/XvoWJaA2/versions/iQRJDwWn/spell_engine-neoforge-1.9.7%2B1.21.1.jar",
+    "sha512": "b694d9d0e0f7298b707d5770277b2ef02a80b1bbb825f5e5f5280bebb2a43fd028e24dbe0c02212d824b57d05cb3b92dbe06c9f3c1183c8ec04cc95c3b32f093"
+  },
+  {
+    "project": "playeranimator",
+    "version": "2.0.4+1.21.1-forge",
+    "id": "HJZB6bmA",
+    "license": "MIT",
+    "file": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+    "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/HJZB6bmA/player-animation-lib-forge-2.0.4%2B1.21.1.jar",
+    "sha512": "fc00450fb6c95ec1779021bdc726122dacb5915c6baddaacc981cd221b01b8db35f2a0dfde5d6fa6766d877266dc82f58854f571ea53cc5c4d468b80e1548a5f"
+  },
+  {
+    "project": "cloth-config",
+    "version": "15.0.140+neoforge",
+    "id": "izKINKFg",
+    "license": "LGPL-3.0-only",
+    "file": "cloth-config-15.0.140-neoforge.jar",
+    "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/izKINKFg/cloth-config-15.0.140-neoforge.jar",
+    "sha512": "aaf9b010955b8cd294e5a92f069985b18729fd5e2cf22d351f1dff9680f15488688803ec41e77e941cbde130ceb535014ca4c868047d80ab69c2d508e216654d"
+  },
+  {
+    "project": "curios",
+    "version": "9.5.1+1.21.1",
+    "id": "yohfFbgD",
+    "license": "LGPL-3.0-or-later",
+    "file": "curios-neoforge-9.5.1+1.21.1.jar",
+    "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar",
+    "sha512": "5981a267686b744e7e3c227f78cbcd5267c14ac6979a28e814695f4589273998563147207fef4a5cdb7cdbdc39797cd95d9e4abadb55869f18e02a38d0654ae5"
+  },
+  {
+    "project": "accessories",
+    "version": "1.1.0-beta.53+1.21.1",
+    "id": "Fb55Fgjz",
+    "license": "MIT",
+    "file": "accessories-neoforge-1.1.0-beta.53+1.21.1.jar",
+    "url": "https://cdn.modrinth.com/data/jtmvUHXj/versions/Fb55Fgjz/accessories-neoforge-1.1.0-beta.53%2B1.21.1.jar",
+    "sha512": "baafa9a5e48c17c243d45b6260095ffef2ad00e4e970aafc5b1ca9ab5f4a542b18b0fb35d4584318791edbaf00a3c44806f62062513d991383192aca4df27a07"
+  },
+  {
+    "project": "owo-lib",
+    "version": "0.12.15.6-beta.1+1.21",
+    "id": "wbdHEItB",
+    "license": "MIT",
+    "file": "owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar",
+    "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/wbdHEItB/owo-lib-neoforge-0.12.15.6-beta.1%2B1.21.jar",
+    "sha512": "fc843ef350c4af6748d9fd6ecd3c28f96262cf46d46a8329029f49ea4f9eb87238113a8a415e8bba2c4f346c718bf450194f6f5823dfbf1ae7312529a81c3e5c"
+  },
+  {
+    "project": "spell-power",
+    "version": "1.4.4+1.21.1-neoforge",
+    "id": "iDoaN9RP",
+    "license": "LGPL-3.0-only",
+    "file": "spell_power-neoforge-1.4.4+1.21.1.jar",
+    "url": "https://cdn.modrinth.com/data/8ooWzSQP/versions/iDoaN9RP/spell_power-neoforge-1.4.4%2B1.21.1.jar",
+    "sha512": "52573d81ce8c13a6069129633af9ca6c6afd31a0dcca6ef1067952475425ed19baa62a43a8d8a222a4883e4e17a467a9072f43c85fcb3f740ba4d7989d47aad9"
+  }
+]

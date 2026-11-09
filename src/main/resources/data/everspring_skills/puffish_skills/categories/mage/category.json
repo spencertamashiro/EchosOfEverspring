@@ -1,0 +1,41 @@
+{
+  "title": {
+    "text": "Everspring • Mage",
+    "color": "#bda6ff"
+  },
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "unlocked_by_default": true,
+  "starting_points": 49,
+  "spent_points_limit": 49,
+  "background": {
+    "texture": "everspring_skills:textures/gui/mage_atlas.png",
+    "width": 768,
+    "height": 512,
+    "position": "fill"
+  },
+  "colors": {
+    "connections": {
+      "locked": {
+        "fill": "#bda6ff",
+        "stroke": "#bda6ff"
+      },
+      "available": {
+        "fill": "#bda6ff",
+        "stroke": "#bda6ff"
+      },
+      "unlocked": {
+        "fill": "#bda6ff",
+        "stroke": "#bda6ff"
+      },
+      "excluded": {
+        "fill": "#bda6ff",
+        "stroke": "#bda6ff"
+      }
+    }
+  }
+}

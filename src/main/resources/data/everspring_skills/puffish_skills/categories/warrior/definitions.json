@@ -1,0 +1,922 @@
+{
+  "path": {
+    "title": {
+      "text": "Warrior · World Tree",
+      "color": "#ffaf74"
+    },
+    "description": "Open your class paths. Choose a single specialization for this build.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 0,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_crest_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_crest_excluded.png"
+      }
+    }
+  },
+  "endurance_training": {
+    "title": {
+      "text": "Endurance Training",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\n+8% maximum stamina\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "combat_footwork": {
+    "title": {
+      "text": "Combat Footwork",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\nDodges cost 8% less stamina\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "tempered_steel": {
+    "title": {
+      "text": "Tempered Steel",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\n+3% melee damage\n\nPreview applies the listed attribute."
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "multiply_base",
+          "value": 0.03
+        }
+      }
+    ]
+  },
+  "guard_discipline": {
+    "title": {
+      "text": "Guard Discipline",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\nBlocking consumes 10% less stamina\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "second_wind": {
+    "title": {
+      "text": "Second Wind",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\nStamina regenerates 15% faster while below 30% stamina\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "adrenaline": {
+    "title": {
+      "text": "Adrenaline",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\nTaking a hit grants +10% movement speed for 2 seconds; 10s internal cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "precision_strikes": {
+    "title": {
+      "text": "Precision Strikes",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\nWeak-point attacks deal +8% damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "hardened_armor": {
+    "title": {
+      "text": "Hardened Armor",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\n+5% physical damage resistance\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "battle_rhythm": {
+    "title": {
+      "text": "Battle Rhythm",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nLanding a melee hit restores 2 stamina; at most once per second\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "veteran_s_instinct": {
+    "title": {
+      "text": "Veteran's Instinct",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nPerfectly timed dodges restore 8% maximum stamina\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "combat_recovery": {
+    "title": {
+      "text": "Combat Recovery",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nAfter avoiding damage for 5 seconds, gain +15% stamina regeneration\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "last_stand": {
+    "title": {
+      "text": "Last Stand",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nBelow 25% HP, gain 12% damage resistance for 5 seconds; 30s internal cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "path_duelist": {
+    "title": {
+      "text": "Duelist",
+      "color": "#ffaf74"
+    },
+    "description": {
+      "text": "Specialization · level 25 in campaign\nLongsword, rapier, dagger.\nChoose one branch per class."
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "cost": 0,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_crest_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_crest_excluded.png"
+      }
+    },
+    "extra_description": "Passive · Lv 27: Riposte, Blade Momentum, Opportunist, Perfect Edge\nActive · Lv 30: Flurry of Blades, Phantom Step, Blade Counter, Thousand Cuts"
+  },
+  "swift_hands": {
+    "title": {
+      "text": "Swift Hands",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Duelist · Tier II · 2 SP\nCampaign level 25\n\n+5% attack speed with light melee weapons\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "evasive_fighter": {
+    "title": {
+      "text": "Evasive Fighter",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Duelist · Tier II · 2 SP\nCampaign level 25\n\nSuccessful dodges grant +5% damage for 3 seconds\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "deflection": {
+    "title": {
+      "text": "Deflection",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Duelist · Tier III · 3 SP\nCampaign level 30\n\nSuccessful parries restore 10% maximum stamina\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "exploit_opening": {
+    "title": {
+      "text": "Exploit Opening",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Duelist · Tier III · 3 SP\nCampaign level 30\n\nAttacking a recovering enemy deals +10% damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "blade_dance": {
+    "title": {
+      "text": "Blade Dance",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Duelist · Tier IV · 4 SP\nCampaign level 35\n\nEvery fourth consecutive hit grants +10% movement speed for 3 seconds\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "unrelenting_assault": {
+    "title": {
+      "text": "Unrelenting Assault",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Duelist · Tier IV · 4 SP\nCampaign level 35\n\nSuccessful melee hits extend combo-duration windows by 0.3s, up to +0.9s\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "perfect_form": {
+    "title": {
+      "text": "Perfect Form",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Duelist · Tier V · 5 SP\nCampaign level 40\n\nSuccessful parries reduce equipped active's remaining cooldown by 2s; once per 5s\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "master_of_blades": {
+    "title": {
+      "text": "Master of Blades",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Duelist · Tier V · 5 SP\nCampaign level 40\n\nCritical strikes restore 5% maximum stamina and grant +5% attack speed for 3s\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "dance_of_steel": {
+    "title": {
+      "text": "Dance of Steel",
+      "color": "#ffaf74"
+    },
+    "description": {
+      "text": "Duelist · Tier VI · 6 SP\nCampaign level 45\n\nA perfect dodge makes the next direct melee hit within 3s apply Exposed (+10% direct melee damage received for 3s); once per 12s. Does not stack with itself\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_crest_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_crest_excluded.png"
+      }
+    }
+  },
+  "master_riposteur": {
+    "title": {
+      "text": "Master Riposteur",
+      "color": "#ffaf74"
+    },
+    "description": {
+      "text": "Duelist · Tier VI · 6 SP\nCampaign level 45\n\nAfter a successful parry, the next melee strike within 3s deals an extra 35% weapon damage (once per parry); boss damage bonus capped at 20%\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_crest_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_crest_excluded.png"
+      }
+    }
+  },
+  "path_juggernaut": {
+    "title": {
+      "text": "Juggernaut",
+      "color": "#ffaf74"
+    },
+    "description": {
+      "text": "Specialization · level 25 in campaign\nWarhammer, battleaxe, heavy two-handed weapons.\nChoose one branch per class."
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:mace"
+      }
+    },
+    "cost": 0,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_crest_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_crest_excluded.png"
+      }
+    },
+    "extra_description": "Passive · Lv 27: Crushing Force, Unstoppable, Executioner, Aftershock\nActive · Lv 30: Earthshatter, Titan's Wrath, Iron Bastion, Seismic Leap"
+  },
+  "heavy_grip": {
+    "title": {
+      "text": "Heavy Grip",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Juggernaut · Tier II · 2 SP\nCampaign level 25\n\n+8% heavy-weapon attack damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:mace"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "iron_body": {
+    "title": {
+      "text": "Iron Body",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Juggernaut · Tier II · 2 SP\nCampaign level 25\n\n+8% knockback resistance\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:mace"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "bonebreaker": {
+    "title": {
+      "text": "Bonebreaker",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Juggernaut · Tier III · 3 SP\nCampaign level 30\n\nHeavy strikes deal +15% stagger buildup\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:mace"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "brutal_followthrough": {
+    "title": {
+      "text": "Brutal Followthrough",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Juggernaut · Tier III · 3 SP\nCampaign level 30\n\nHeavy attacks recover 10% faster after hitting an enemy\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:mace"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "unyielding": {
+    "title": {
+      "text": "Unyielding",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Juggernaut · Tier IV · 4 SP\nCampaign level 35\n\nWhile charging a heavy attack, take 12% less damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:mace"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "quake_impact": {
+    "title": {
+      "text": "Quake Impact",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Juggernaut · Tier IV · 4 SP\nCampaign level 35\n\nStaggering an enemy deals 20% weapon damage to nearby enemies within 3 blocks; 5s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:mace"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "colossus": {
+    "title": {
+      "text": "Colossus",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Juggernaut · Tier V · 5 SP\nCampaign level 40\n\nHeavy attacks gain +15% additional stagger buildup against bosses\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:mace"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "relentless_force": {
+    "title": {
+      "text": "Relentless Force",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Juggernaut · Tier V · 5 SP\nCampaign level 40\n\nAfter a fully charged heavy strike, next heavy attack costs 25% less stamina\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:mace"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_node_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_node_excluded.png"
+      }
+    }
+  },
+  "mountain_s_will": {
+    "title": {
+      "text": "Mountain's Will",
+      "color": "#ffaf74"
+    },
+    "description": {
+      "text": "Juggernaut · Tier VI · 6 SP\nCampaign level 45\n\nOnce every 20s, a heavy attack that would be interrupted instead finishes with 25% damage reduction until its recovery ends\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:mace"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_crest_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_crest_excluded.png"
+      }
+    }
+  },
+  "worldbreaker": {
+    "title": {
+      "text": "Worldbreaker",
+      "color": "#ffaf74"
+    },
+    "description": {
+      "text": "Juggernaut · Tier VI · 6 SP\nCampaign level 45\n\nA fully charged heavy attack against a staggered enemy deals +25% direct damage and creates a 2-block shockwave (40% weapon damage); 15s cooldown; reduced vs bosses\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:mace"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/warrior_crest_available.png",
+        "locked": "everspring_skills:textures/gui/warrior_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/warrior_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/warrior_crest_excluded.png"
+      }
+    }
+  }
+}

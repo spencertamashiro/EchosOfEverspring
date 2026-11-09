@@ -1,0 +1,41 @@
+{
+  "title": {
+    "text": "Everspring • Warrior",
+    "color": "#ffaf74"
+  },
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "unlocked_by_default": true,
+  "starting_points": 49,
+  "spent_points_limit": 49,
+  "background": {
+    "texture": "everspring_skills:textures/gui/warrior_atlas.png",
+    "width": 768,
+    "height": 512,
+    "position": "fill"
+  },
+  "colors": {
+    "connections": {
+      "locked": {
+        "fill": "#ffaf74",
+        "stroke": "#ffaf74"
+      },
+      "available": {
+        "fill": "#ffaf74",
+        "stroke": "#ffaf74"
+      },
+      "unlocked": {
+        "fill": "#ffaf74",
+        "stroke": "#ffaf74"
+      },
+      "excluded": {
+        "fill": "#ffaf74",
+        "stroke": "#ffaf74"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "title": {
+    "text": "Everspring • Archer",
+    "color": "#bef6ca"
+  },
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:bow"
+    }
+  },
+  "unlocked_by_default": true,
+  "starting_points": 49,
+  "spent_points_limit": 49,
+  "background": {
+    "texture": "everspring_skills:textures/gui/archer_atlas.png",
+    "width": 768,
+    "height": 512,
+    "position": "fill"
+  },
+  "colors": {
+    "connections": {
+      "locked": {
+        "fill": "#bef6ca",
+        "stroke": "#bef6ca"
+      },
+      "available": {
+        "fill": "#bef6ca",
+        "stroke": "#bef6ca"
+      },
+      "unlocked": {
+        "fill": "#bef6ca",
+        "stroke": "#bef6ca"
+      },
+      "excluded": {
+        "fill": "#bef6ca",
+        "stroke": "#bef6ca"
+      }
+    }
+  }
+}

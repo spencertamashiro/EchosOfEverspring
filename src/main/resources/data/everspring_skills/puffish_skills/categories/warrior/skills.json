@@ -1,0 +1,212 @@
+{
+  "path": {
+    "definition": "path",
+    "x": 0,
+    "y": 194,
+    "root": true
+  },
+  "endurance_training": {
+    "definition": "endurance_training",
+    "x": -96.0,
+    "y": 115,
+    "root": false
+  },
+  "combat_footwork": {
+    "definition": "combat_footwork",
+    "x": -32.0,
+    "y": 103,
+    "root": false
+  },
+  "tempered_steel": {
+    "definition": "tempered_steel",
+    "x": 32.0,
+    "y": 103,
+    "root": false
+  },
+  "guard_discipline": {
+    "definition": "guard_discipline",
+    "x": 96.0,
+    "y": 115,
+    "root": false
+  },
+  "second_wind": {
+    "definition": "second_wind",
+    "x": -96.0,
+    "y": 46,
+    "root": false
+  },
+  "adrenaline": {
+    "definition": "adrenaline",
+    "x": -32.0,
+    "y": 34,
+    "root": false
+  },
+  "precision_strikes": {
+    "definition": "precision_strikes",
+    "x": 32.0,
+    "y": 34,
+    "root": false
+  },
+  "hardened_armor": {
+    "definition": "hardened_armor",
+    "x": 96.0,
+    "y": 46,
+    "root": false
+  },
+  "battle_rhythm": {
+    "definition": "battle_rhythm",
+    "x": -96.0,
+    "y": -23,
+    "root": false
+  },
+  "veteran_s_instinct": {
+    "definition": "veteran_s_instinct",
+    "x": -32.0,
+    "y": -35,
+    "root": false
+  },
+  "combat_recovery": {
+    "definition": "combat_recovery",
+    "x": 32.0,
+    "y": -35,
+    "root": false
+  },
+  "last_stand": {
+    "definition": "last_stand",
+    "x": 96.0,
+    "y": -23,
+    "root": false
+  },
+  "path_duelist": {
+    "definition": "path_duelist",
+    "x": -264,
+    "y": 144,
+    "root": false
+  },
+  "swift_hands": {
+    "definition": "swift_hands",
+    "x": -299.0,
+    "y": 71,
+    "root": false
+  },
+  "evasive_fighter": {
+    "definition": "evasive_fighter",
+    "x": -229.0,
+    "y": 71,
+    "root": false
+  },
+  "deflection": {
+    "definition": "deflection",
+    "x": -313.0,
+    "y": 2,
+    "root": false
+  },
+  "exploit_opening": {
+    "definition": "exploit_opening",
+    "x": -239.0,
+    "y": 2,
+    "root": false
+  },
+  "blade_dance": {
+    "definition": "blade_dance",
+    "x": -327.0,
+    "y": -67,
+    "root": false
+  },
+  "unrelenting_assault": {
+    "definition": "unrelenting_assault",
+    "x": -249.0,
+    "y": -67,
+    "root": false
+  },
+  "perfect_form": {
+    "definition": "perfect_form",
+    "x": -305.0,
+    "y": -136,
+    "root": false
+  },
+  "master_of_blades": {
+    "definition": "master_of_blades",
+    "x": -223.0,
+    "y": -136,
+    "root": false
+  },
+  "dance_of_steel": {
+    "definition": "dance_of_steel",
+    "x": -319.0,
+    "y": -205,
+    "root": false
+  },
+  "master_riposteur": {
+    "definition": "master_riposteur",
+    "x": -233.0,
+    "y": -205,
+    "root": false
+  },
+  "path_juggernaut": {
+    "definition": "path_juggernaut",
+    "x": 264,
+    "y": 144,
+    "root": false
+  },
+  "heavy_grip": {
+    "definition": "heavy_grip",
+    "x": 229.0,
+    "y": 71,
+    "root": false
+  },
+  "iron_body": {
+    "definition": "iron_body",
+    "x": 299.0,
+    "y": 71,
+    "root": false
+  },
+  "bonebreaker": {
+    "definition": "bonebreaker",
+    "x": 239.0,
+    "y": 2,
+    "root": false
+  },
+  "brutal_followthrough": {
+    "definition": "brutal_followthrough",
+    "x": 313.0,
+    "y": 2,
+    "root": false
+  },
+  "unyielding": {
+    "definition": "unyielding",
+    "x": 249.0,
+    "y": -67,
+    "root": false
+  },
+  "quake_impact": {
+    "definition": "quake_impact",
+    "x": 327.0,
+    "y": -67,
+    "root": false
+  },
+  "colossus": {
+    "definition": "colossus",
+    "x": 223.0,
+    "y": -136,
+    "root": false
+  },
+  "relentless_force": {
+    "definition": "relentless_force",
+    "x": 305.0,
+    "y": -136,
+    "root": false
+  },
+  "mountain_s_will": {
+    "definition": "mountain_s_will",
+    "x": 233.0,
+    "y": -205,
+    "root": false
+  },
+  "worldbreaker": {
+    "definition": "worldbreaker",
+    "x": 319.0,
+    "y": -205,
+    "root": false
+  }
+}

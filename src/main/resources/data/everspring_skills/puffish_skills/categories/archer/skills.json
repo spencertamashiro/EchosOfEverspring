@@ -1,0 +1,212 @@
+{
+  "path": {
+    "definition": "path",
+    "x": 0,
+    "y": 194,
+    "root": true
+  },
+  "steady_hands": {
+    "definition": "steady_hands",
+    "x": -96.0,
+    "y": 115,
+    "root": false
+  },
+  "light_footed": {
+    "definition": "light_footed",
+    "x": -32.0,
+    "y": 103,
+    "root": false
+  },
+  "sharpened_ammunition": {
+    "definition": "sharpened_ammunition",
+    "x": 32.0,
+    "y": 103,
+    "root": false
+  },
+  "efficient_draw": {
+    "definition": "efficient_draw",
+    "x": 96.0,
+    "y": 115,
+    "root": false
+  },
+  "eagle_vision": {
+    "definition": "eagle_vision",
+    "x": -96.0,
+    "y": 46,
+    "root": false
+  },
+  "nimble_recovery": {
+    "definition": "nimble_recovery",
+    "x": -32.0,
+    "y": 34,
+    "root": false
+  },
+  "ammunition_recovery": {
+    "definition": "ammunition_recovery",
+    "x": 32.0,
+    "y": 34,
+    "root": false
+  },
+  "swift_reload": {
+    "definition": "swift_reload",
+    "x": 96.0,
+    "y": 46,
+    "root": false
+  },
+  "tactical_retreat": {
+    "definition": "tactical_retreat",
+    "x": -96.0,
+    "y": -23,
+    "root": false
+  },
+  "weak_point_mastery": {
+    "definition": "weak_point_mastery",
+    "x": -32.0,
+    "y": -35,
+    "root": false
+  },
+  "efficient_hunter": {
+    "definition": "efficient_hunter",
+    "x": 32.0,
+    "y": -35,
+    "root": false
+  },
+  "ranged_survival": {
+    "definition": "ranged_survival",
+    "x": 96.0,
+    "y": -23,
+    "root": false
+  },
+  "path_marksman": {
+    "definition": "path_marksman",
+    "x": -264,
+    "y": 144,
+    "root": false
+  },
+  "longshot": {
+    "definition": "longshot",
+    "x": -299.0,
+    "y": 71,
+    "root": false
+  },
+  "patient_aim": {
+    "definition": "patient_aim",
+    "x": -229.0,
+    "y": 71,
+    "root": false
+  },
+  "armor_piercer": {
+    "definition": "armor_piercer",
+    "x": -313.0,
+    "y": 2,
+    "root": false
+  },
+  "steady_breathing": {
+    "definition": "steady_breathing",
+    "x": -239.0,
+    "y": 2,
+    "root": false
+  },
+  "precision_mastery": {
+    "definition": "precision_mastery",
+    "x": -327.0,
+    "y": -67,
+    "root": false
+  },
+  "eagle_s_reach": {
+    "definition": "eagle_s_reach",
+    "x": -249.0,
+    "y": -67,
+    "root": false
+  },
+  "perfect_shot": {
+    "definition": "perfect_shot",
+    "x": -305.0,
+    "y": -136,
+    "root": false
+  },
+  "hunter_s_instinct": {
+    "definition": "hunter_s_instinct",
+    "x": -223.0,
+    "y": -136,
+    "root": false
+  },
+  "true_sight": {
+    "definition": "true_sight",
+    "x": -319.0,
+    "y": -205,
+    "root": false
+  },
+  "final_arrow": {
+    "definition": "final_arrow",
+    "x": -233.0,
+    "y": -205,
+    "root": false
+  },
+  "path_skirmisher": {
+    "definition": "path_skirmisher",
+    "x": 264,
+    "y": 144,
+    "root": false
+  },
+  "quick_hands": {
+    "definition": "quick_hands",
+    "x": 229.0,
+    "y": 71,
+    "root": false
+  },
+  "lightweight_gear": {
+    "definition": "lightweight_gear",
+    "x": 299.0,
+    "y": 71,
+    "root": false
+  },
+  "venom_expertise": {
+    "definition": "venom_expertise",
+    "x": 239.0,
+    "y": 2,
+    "root": false
+  },
+  "combat_acrobatics": {
+    "definition": "combat_acrobatics",
+    "x": 313.0,
+    "y": 2,
+    "root": false
+  },
+  "toxic_accumulation": {
+    "definition": "toxic_accumulation",
+    "x": 249.0,
+    "y": -67,
+    "root": false
+  },
+  "guerrilla_warfare": {
+    "definition": "guerrilla_warfare",
+    "x": 327.0,
+    "y": -67,
+    "root": false
+  },
+  "master_saboteur": {
+    "definition": "master_saboteur",
+    "x": 223.0,
+    "y": -136,
+    "root": false
+  },
+  "relentless_pursuit": {
+    "definition": "relentless_pursuit",
+    "x": 305.0,
+    "y": -136,
+    "root": false
+  },
+  "ghostrunner": {
+    "definition": "ghostrunner",
+    "x": 233.0,
+    "y": -205,
+    "root": false
+  },
+  "venom_catalyst": {
+    "definition": "venom_catalyst",
+    "x": 319.0,
+    "y": -205,
+    "root": false
+  }
+}

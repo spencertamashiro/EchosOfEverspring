@@ -1,0 +1,212 @@
+{
+  "path": {
+    "definition": "path",
+    "x": 0,
+    "y": 194,
+    "root": true
+  },
+  "mana_reservoir": {
+    "definition": "mana_reservoir",
+    "x": -96.0,
+    "y": 115,
+    "root": false
+  },
+  "arcane_meditation": {
+    "definition": "arcane_meditation",
+    "x": -32.0,
+    "y": 103,
+    "root": false
+  },
+  "focused_casting": {
+    "definition": "focused_casting",
+    "x": 32.0,
+    "y": 103,
+    "root": false
+  },
+  "quick_incantation": {
+    "definition": "quick_incantation",
+    "x": 96.0,
+    "y": 115,
+    "root": false
+  },
+  "arcane_recovery": {
+    "definition": "arcane_recovery",
+    "x": -96.0,
+    "y": 46,
+    "root": false
+  },
+  "mana_conservation": {
+    "definition": "mana_conservation",
+    "x": -32.0,
+    "y": 34,
+    "root": false
+  },
+  "elemental_familiarity": {
+    "definition": "elemental_familiarity",
+    "x": 32.0,
+    "y": 34,
+    "root": false
+  },
+  "spell_stabilization": {
+    "definition": "spell_stabilization",
+    "x": 96.0,
+    "y": 46,
+    "root": false
+  },
+  "arcane_replenishment": {
+    "definition": "arcane_replenishment",
+    "x": -96.0,
+    "y": -23,
+    "root": false
+  },
+  "efficient_channeling": {
+    "definition": "efficient_channeling",
+    "x": -32.0,
+    "y": -35,
+    "root": false
+  },
+  "magical_awareness": {
+    "definition": "magical_awareness",
+    "x": 32.0,
+    "y": -35,
+    "root": false
+  },
+  "emergency_reserve": {
+    "definition": "emergency_reserve",
+    "x": 96.0,
+    "y": -23,
+    "root": false
+  },
+  "path_battlemage": {
+    "definition": "path_battlemage",
+    "x": -264,
+    "y": 144,
+    "root": false
+  },
+  "destructive_magic": {
+    "definition": "destructive_magic",
+    "x": -299.0,
+    "y": 71,
+    "root": false
+  },
+  "elemental_reach": {
+    "definition": "elemental_reach",
+    "x": -229.0,
+    "y": 71,
+    "root": false
+  },
+  "lingering_flames": {
+    "definition": "lingering_flames",
+    "x": -313.0,
+    "y": 2,
+    "root": false
+  },
+  "arcane_detonation": {
+    "definition": "arcane_detonation",
+    "x": -239.0,
+    "y": 2,
+    "root": false
+  },
+  "elemental_saturation": {
+    "definition": "elemental_saturation",
+    "x": -327.0,
+    "y": -67,
+    "root": false
+  },
+  "spell_amplification": {
+    "definition": "spell_amplification",
+    "x": -249.0,
+    "y": -67,
+    "root": false
+  },
+  "elemental_mastery": {
+    "definition": "elemental_mastery",
+    "x": -305.0,
+    "y": -136,
+    "root": false
+  },
+  "cataclysm": {
+    "definition": "cataclysm",
+    "x": -223.0,
+    "y": -136,
+    "root": false
+  },
+  "primal_convergence": {
+    "definition": "primal_convergence",
+    "x": -319.0,
+    "y": -205,
+    "root": false
+  },
+  "mana_furnace": {
+    "definition": "mana_furnace",
+    "x": -233.0,
+    "y": -205,
+    "root": false
+  },
+  "path_arcanist": {
+    "definition": "path_arcanist",
+    "x": 264,
+    "y": 144,
+    "root": false
+  },
+  "wand_proficiency": {
+    "definition": "wand_proficiency",
+    "x": 229.0,
+    "y": 71,
+    "root": false
+  },
+  "crystal_handling": {
+    "definition": "crystal_handling",
+    "x": 299.0,
+    "y": 71,
+    "root": false
+  },
+  "rune_expertise": {
+    "definition": "rune_expertise",
+    "x": 239.0,
+    "y": 2,
+    "root": false
+  },
+  "arcane_insight": {
+    "definition": "arcane_insight",
+    "x": 313.0,
+    "y": 2,
+    "root": false
+  },
+  "dual_casting": {
+    "definition": "dual_casting",
+    "x": 249.0,
+    "y": -67,
+    "root": false
+  },
+  "crystal_resonance": {
+    "definition": "crystal_resonance",
+    "x": 327.0,
+    "y": -67,
+    "root": false
+  },
+  "grand_arcanum": {
+    "definition": "grand_arcanum",
+    "x": 223.0,
+    "y": -136,
+    "root": false
+  },
+  "runic_mastery": {
+    "definition": "runic_mastery",
+    "x": 305.0,
+    "y": -136,
+    "root": false
+  },
+  "grand_equation": {
+    "definition": "grand_equation",
+    "x": 233.0,
+    "y": -205,
+    "root": false
+  },
+  "nullscript": {
+    "definition": "nullscript",
+    "x": 319.0,
+    "y": -205,
+    "root": false
+  }
+}

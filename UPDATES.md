@@ -5,6 +5,17 @@ This document tracks detailed progress logs, milestone summaries, and architectu
 ---
 
 ## Update Log
+### [2026-11-08] Match skill connectors to tab themes
+
+- Replaced the global gray connector with a solid color per tab. The four class tabs use their existing title accents and Weapon Skills uses cool steel blue. Connector geometry and purchase rules stay the same.
+- Documented merge and push expectations in AGENTS.md.
+
+### [2026-11-08] Integrate Everspring skill-tree playtest
+
+- Folded the four Everspring class trees, Weapon Skills visual overlay, landscape assets, and client-only connector renderer into the single TentativeRPG JAR. The local standalone test project is no longer needed in the combined runtime.
+- Added pinned, separately resolved RPG Series dependencies. See the [dependency lock](docs/development/skill-dependencies.lock.json) and [renderer decision](docs/decisions/0002-rpg-series-skill-playtest.md).
+- Gradle build and two tooltip unit tests passed. All three dedicated GameTests passed, covering the NPC/quest integration and skill-tree purchase rules. See [features and playtest instructions](docs/development/COMBINED_PLAYTEST.md).
+
 
 ### [2026-11-08] Integrate NPC dialogue and item tooltips
 

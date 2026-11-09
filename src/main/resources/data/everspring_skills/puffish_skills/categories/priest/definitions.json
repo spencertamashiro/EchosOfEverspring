@@ -1,0 +1,912 @@
+{
+  "path": {
+    "title": {
+      "text": "Priest · World Tree",
+      "color": "#f5d18c"
+    },
+    "description": "Open your class paths. Choose a single specialization for this build.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 0,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_crest_available.png",
+        "locked": "everspring_skills:textures/gui/priest_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_crest_excluded.png"
+      }
+    }
+  },
+  "sacred_knowledge": {
+    "title": {
+      "text": "Sacred Knowledge",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\n+5% healing power\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "divine_focus": {
+    "title": {
+      "text": "Divine Focus",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\n+5% maximum mana\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "blessed_casting": {
+    "title": {
+      "text": "Blessed Casting",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\n+3% Holy damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "spiritual_resilience": {
+    "title": {
+      "text": "Spiritual Resilience",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier I · 1 SP\nCampaign level 2\n\n+5% resistance to magical damage\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    "cost": 1,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "benevolent_touch": {
+    "title": {
+      "text": "Benevolent Touch",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\nHealing spells cost 8% less mana\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "lightbearer": {
+    "title": {
+      "text": "Lightbearer",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\nHoly attacks build purification effects 10% faster\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "compassion": {
+    "title": {
+      "text": "Compassion",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\nHealing allies below 30% HP grants +8% healing effectiveness\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "prayer_of_renewal": {
+    "title": {
+      "text": "Prayer of Renewal",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier II · 2 SP\nCampaign level 15\n\nHealing an ally restores 2% max mana; 6s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    "cost": 2,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "sacred_bond": {
+    "title": {
+      "text": "Sacred Bond",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nHealing an ally also heals lowest-health nearby ally for 8% of original amount; once per cast\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "divine_endurance": {
+    "title": {
+      "text": "Divine Endurance",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nAfter casting healing spell, gain 8% damage reduction for 3s\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "faithful_resolve": {
+    "title": {
+      "text": "Faithful Resolve",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nHoly spells vs Undead/Demons restore 2% max mana on hit; 5s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "last_prayer": {
+    "title": {
+      "text": "Last Prayer",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Shared · Tier III · 3 SP\nCampaign level 30\n\nBelow 20% HP, gain 15% healing effectiveness for 5s; 40s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 3,
+    "required_skills": 2,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "path_hierophant": {
+    "title": {
+      "text": "Hierophant",
+      "color": "#f5d18c"
+    },
+    "description": {
+      "text": "Specialization · level 25 in campaign\nChimes, holy symbols, bells, healing catalysts.\nChoose one branch per class."
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 0,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_crest_available.png",
+        "locked": "everspring_skills:textures/gui/priest_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_crest_excluded.png"
+      }
+    },
+    "extra_description": "Passive · Lv 27: Divine Grace, Overflowing Light, Sacred Presence, Martyr's Blessing\nActive · Lv 30: Sanctuary, Divine Intervention, Judgment Bell, Resurrection Light"
+  },
+  "gentle_grace": {
+    "title": {
+      "text": "Gentle Grace",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Hierophant · Tier II · 2 SP\nCampaign level 25\n\nDirect healing spells heal 6% more\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "protective_light": {
+    "title": {
+      "text": "Protective Light",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Hierophant · Tier II · 2 SP\nCampaign level 25\n\nHealing an ally grants shield worth 4% their max HP for 3s; 8s cooldown per target\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "sacred_ground": {
+    "title": {
+      "text": "Sacred Ground",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Hierophant · Tier III · 3 SP\nCampaign level 30\n\nConsecrated areas last 10% longer\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "guiding_prayer": {
+    "title": {
+      "text": "Guiding Prayer",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Hierophant · Tier III · 3 SP\nCampaign level 30\n\nHealing spells targeting allies below 50% HP cost 8% less mana\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "guardian_s_blessing": {
+    "title": {
+      "text": "Guardian's Blessing",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Hierophant · Tier IV · 4 SP\nCampaign level 35\n\nHealing ally grants +5% damage resistance for 4s; nonstacking\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "purifying_touch": {
+    "title": {
+      "text": "Purifying Touch",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Hierophant · Tier IV · 4 SP\nCampaign level 35\n\nDirect heals reduce duration of one non-boss harmful status by 20%\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "eternal_sanctuary": {
+    "title": {
+      "text": "Eternal Sanctuary",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Hierophant · Tier V · 5 SP\nCampaign level 40\n\nHealing from consecrated ground +12% effectiveness\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "divine_providence": {
+    "title": {
+      "text": "Divine Providence",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Hierophant · Tier V · 5 SP\nCampaign level 40\n\nOnce every 30s, healing an ally below 20% HP shields them for 10% max HP\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "beacon_of_hope": {
+    "title": {
+      "text": "Beacon of Hope",
+      "color": "#f5d18c"
+    },
+    "description": {
+      "text": "Hierophant · Tier VI · 6 SP\nCampaign level 45\n\nOnce every 30s, the first direct heal on an ally below 30% HP restores an extra 5% max HP and cleanses one minor debuff\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_crest_available.png",
+        "locked": "everspring_skills:textures/gui/priest_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_crest_excluded.png"
+      }
+    }
+  },
+  "hallowed_refuge": {
+    "title": {
+      "text": "Hallowed Refuge",
+      "color": "#f5d18c"
+    },
+    "description": {
+      "text": "Hierophant · Tier VI · 6 SP\nCampaign level 45\n\nAllies who remain inside a consecrated zone for 3s gain an 8% max-HP shield lasting 4s after leaving; 20s cooldown per ally\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_crest_available.png",
+        "locked": "everspring_skills:textures/gui/priest_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_crest_excluded.png"
+      }
+    }
+  },
+  "path_inquisitor": {
+    "title": {
+      "text": "Inquisitor",
+      "color": "#f5d18c"
+    },
+    "description": {
+      "text": "Specialization · level 25 in campaign\nScythes, sacrificial daggers, offensive catalysts, holy fire.\nChoose one branch per class."
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:soul_lantern"
+      }
+    },
+    "cost": 0,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_crest_available.png",
+        "locked": "everspring_skills:textures/gui/priest_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_crest_excluded.png"
+      }
+    },
+    "extra_description": "Passive · Lv 27: Blood Tithe, Sinner's Brand, Final Rites, Pain and Penance\nActive · Lv 30: Blood Sacrifice, Reaper's Covenant, Chains of Judgment, Excommunication"
+  },
+  "dark_communion": {
+    "title": {
+      "text": "Dark Communion",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Inquisitor · Tier II · 2 SP\nCampaign level 25\n\nLife-draining abilities restore 5% more health\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:soul_lantern"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "ritual_blade": {
+    "title": {
+      "text": "Ritual Blade",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Inquisitor · Tier II · 2 SP\nCampaign level 25\n\n+5% damage with scythes and sacrificial daggers\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:soul_lantern"
+      }
+    },
+    "cost": 2,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "blood_rituals": {
+    "title": {
+      "text": "Blood Rituals",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Inquisitor · Tier III · 3 SP\nCampaign level 30\n\nSacrificial abilities cost 10% less HP (without lowering damage)\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:soul_lantern"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "cruel_mercy": {
+    "title": {
+      "text": "Cruel Mercy",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Inquisitor · Tier III · 3 SP\nCampaign level 30\n\nOffensive-ability healing directed to allies is 10% stronger\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:soul_lantern"
+      }
+    },
+    "cost": 3,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "tormented_soul": {
+    "title": {
+      "text": "Tormented Soul",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Inquisitor · Tier IV · 4 SP\nCampaign level 35\n\n+8% damage to enemies suffering holy curse or life-drain\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:soul_lantern"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "harvest_essence": {
+    "title": {
+      "text": "Harvest Essence",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Inquisitor · Tier IV · 4 SP\nCampaign level 35\n\nKilling life-drained enemy restores 3% max mana; 5s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:soul_lantern"
+      }
+    },
+    "cost": 4,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "blood_covenant": {
+    "title": {
+      "text": "Blood Covenant",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Inquisitor · Tier V · 5 SP\nCampaign level 40\n\nOnce every 20s, damage-to-healing conversion also gives shield equal to 4% max HP\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:soul_lantern"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "final_judgment": {
+    "title": {
+      "text": "Final Judgment",
+      "color": "#f5eee9"
+    },
+    "description": {
+      "text": "Inquisitor · Tier V · 5 SP\nCampaign level 40\n\nKilling cursed enemy spreads weakened curse to 1 nearby target; 10s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:soul_lantern"
+      }
+    },
+    "cost": 5,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_node_available.png",
+        "locked": "everspring_skills:textures/gui/priest_node_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_node_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_node_excluded.png"
+      }
+    }
+  },
+  "sanguine_pact": {
+    "title": {
+      "text": "Sanguine Pact",
+      "color": "#f5d18c"
+    },
+    "description": {
+      "text": "Inquisitor · Tier VI · 6 SP\nCampaign level 45\n\nOnce every 25s, spending HP on a sacrificial skill creates a 6% max-HP shield on lowest-health nearby ally; does not affect caster\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:soul_lantern"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_crest_available.png",
+        "locked": "everspring_skills:textures/gui/priest_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_crest_excluded.png"
+      }
+    }
+  },
+  "last_absolution": {
+    "title": {
+      "text": "Last Absolution",
+      "color": "#f5d18c"
+    },
+    "description": {
+      "text": "Inquisitor · Tier VI · 6 SP\nCampaign level 45\n\nA cursed enemy defeated by your direct damage sends a heal equal to 5% max HP to two lowest-health allies; 15s cooldown\n\nCombat effect preview"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:soul_lantern"
+      }
+    },
+    "cost": 6,
+    "required_skills": 1,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "available": "everspring_skills:textures/gui/priest_crest_available.png",
+        "locked": "everspring_skills:textures/gui/priest_crest_locked.png",
+        "unlocked": "everspring_skills:textures/gui/priest_crest_unlocked.png",
+        "excluded": "everspring_skills:textures/gui/priest_crest_excluded.png"
+      }
+    }
+  }
+}

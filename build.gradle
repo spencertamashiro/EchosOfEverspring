@@ -19,9 +19,18 @@ repositories {
 
 configurations {
     clientMods
+    skillMods
+}
+
+def skillLock = new JsonSlurper().parse(file('docs/development/skill-dependencies.lock.json'))
+def skillDependency = { entry ->
+    def staged = file("run/skill-dependencies/${entry.file}")
+    staged.isFile() ? files(staged) : "maven.modrinth:${entry.project}:${entry.id}"
 }
 
 dependencies {
+    skillLock.each { entry -> skillMods(skillDependency(entry)) }
+    compileOnly skillDependency(skillLock.find { it.project == 'skills' })
     clientMods 'maven.modrinth:tooltip-overhaul:j00qCZqC'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
     testImplementation 'com.google.code.gson:gson:2.10.1'
@@ -88,7 +97,7 @@ def generateQuests = tasks.register('generateQuests') {
 }
 tasks.named('processResources') { from(generateQuests) }
 
-tasks.named('jar') { exclude 'dev/tentativerpg/npc/SmokeGameTests.class', 'data/tentativerpg/structure/smoke_empty.nbt' }
+tasks.named('jar') { exclude 'dev/tentativerpg/npc/SmokeGameTests.class', 'dev/tentativerpg/skills/SkillTreeSmoke.class', 'data/tentativerpg/structure/smoke_empty.nbt' }
 
 // Exercise the documented examples in the isolated GameTest instance.
 def installGameTestExamples = tasks.register('installGameTestExamples', Copy) {
@@ -106,4 +115,20 @@ def installClientMods = tasks.register('installClientMods', Copy) {
 }
 tasks.matching { it.name == 'runClient' }.configureEach {
     dependsOn(installClientMods)
+}
+
+['client', 'gametest', 'server'].each { instance ->
+    def stage = tasks.register("installSkillMods_${instance}", Copy) {
+        from configurations.skillMods
+        into layout.projectDirectory.dir("run/${instance}/mods")
+    }
+    def taskName = instance == 'gametest' ? 'runGameTestServer' : "run${instance.capitalize()}"
+    tasks.named(taskName) { dependsOn(stage) }
+}
+
+if (providers.gradleProperty('playtestWorld').isPresent()) {
+    neoForge.runs.named('client') {
+        programArgument '--quickPlaySingleplayer'
+        programArgument providers.gradleProperty('playtestWorld').get()
+    }
 }

@@ -1,0 +1,7 @@
+Everspring rose corner ornaments
+================================
+The four rose_*.png sources are original Echoes of Everspring artwork.
+The upstream GUI-ASSET-NOTICE.txt identifies them as MIT-licensed and
+generated from hand-authored pixel masks in tools/generate-container-themes.py.
+They are scaled with nearest-neighbor interpolation in the skill atlas.
+No vanilla container panels or Skill Tree (RPG Series) textures are copied.
