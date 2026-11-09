@@ -1,0 +1,110 @@
+{
+  "rowan.greeting": {
+    "subtitle": "subtitles.rpgtestingnpc.rowan.greeting",
+    "sounds": [
+      "rpgtestingnpc:rowan/greeting"
+    ]
+  },
+  "rowan.lore": {
+    "subtitle": "subtitles.rpgtestingnpc.rowan.lore",
+    "sounds": [
+      "rpgtestingnpc:rowan/lore"
+    ]
+  },
+  "rowan.accepted": {
+    "subtitle": "subtitles.rpgtestingnpc.rowan.accepted",
+    "sounds": [
+      "rpgtestingnpc:rowan/accepted"
+    ]
+  },
+  "rowan.finished": {
+    "subtitle": "subtitles.rpgtestingnpc.rowan.finished",
+    "sounds": [
+      "rpgtestingnpc:rowan/finished"
+    ]
+  },
+  "rowan.waiting": {
+    "subtitle": "subtitles.rpgtestingnpc.rowan.waiting",
+    "sounds": [
+      "rpgtestingnpc:rowan/waiting"
+    ]
+  },
+  "rowan.reported": {
+    "subtitle": "subtitles.rpgtestingnpc.rowan.reported",
+    "sounds": [
+      "rpgtestingnpc:rowan/reported"
+    ]
+  },
+  "rowan.active": {
+    "subtitle": "subtitles.rpgtestingnpc.rowan.active",
+    "sounds": [
+      "rpgtestingnpc:rowan/active"
+    ]
+  },
+  "rowan.unavailable": {
+    "subtitle": "subtitles.rpgtestingnpc.rowan.unavailable",
+    "sounds": [
+      "rpgtestingnpc:rowan/unavailable"
+    ]
+  },
+  "sable.greeting": {
+    "subtitle": "subtitles.rpgtestingnpc.sable.greeting",
+    "sounds": [
+      "rpgtestingnpc:sable/greeting"
+    ]
+  },
+  "sable.lore": {
+    "subtitle": "subtitles.rpgtestingnpc.sable.lore",
+    "sounds": [
+      "rpgtestingnpc:sable/lore"
+    ]
+  },
+  "sable.accepted": {
+    "subtitle": "subtitles.rpgtestingnpc.sable.accepted",
+    "sounds": [
+      "rpgtestingnpc:sable/accepted"
+    ]
+  },
+  "sable.finished": {
+    "subtitle": "subtitles.rpgtestingnpc.sable.finished",
+    "sounds": [
+      "rpgtestingnpc:sable/finished"
+    ]
+  },
+  "sable.waiting": {
+    "subtitle": "subtitles.rpgtestingnpc.sable.waiting",
+    "sounds": [
+      "rpgtestingnpc:sable/waiting"
+    ]
+  },
+  "sable.reported": {
+    "subtitle": "subtitles.rpgtestingnpc.sable.reported",
+    "sounds": [
+      "rpgtestingnpc:sable/reported"
+    ]
+  },
+  "sable.active": {
+    "subtitle": "subtitles.rpgtestingnpc.sable.active",
+    "sounds": [
+      "rpgtestingnpc:sable/active"
+    ]
+  },
+  "sable.unavailable": {
+    "subtitle": "subtitles.rpgtestingnpc.sable.unavailable",
+    "sounds": [
+      "rpgtestingnpc:sable/unavailable"
+    ]
+  },
+  "rowan.locked": {
+    "subtitle": "subtitles.rpgtestingnpc.rowan.locked",
+    "sounds": [
+      "rpgtestingnpc:rowan/locked"
+    ]
+  },
+  "sable.locked": {
+    "subtitle": "subtitles.rpgtestingnpc.sable.locked",
+    "sounds": [
+      "rpgtestingnpc:sable/locked"
+    ]
+  }
+}

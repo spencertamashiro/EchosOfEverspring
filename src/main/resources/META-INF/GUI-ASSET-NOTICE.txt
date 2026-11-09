@@ -1,0 +1,9 @@
+GUI assets
+==========
+The rose and thorn corner ornaments are original artwork generated from the
+hand-authored pixel masks in tools/generate-container-themes.py (project MIT license).
+
+Container panel and GUI sprite variants are palette adaptations of the Minecraft
+Java Edition 1.21.1 GUI artwork, copyright Mojang Studios / Microsoft. They preserve
+the original layout and visual symbols for compatibility; the underlying Minecraft
+artwork is not relicensed under this project's MIT license. Requires Minecraft.

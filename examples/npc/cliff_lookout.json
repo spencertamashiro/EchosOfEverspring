@@ -1,0 +1,11 @@
+{
+  "id": "cliff_lookout",
+  "name": "Aster Rook",
+  "model": "humanoid",
+  "caption": "CLIFF WATCH",
+  "greeting": "Quiet a moment. You can hear the sea before you see it.",
+  "loreLabel": "Ask about the gulls",
+  "lore": "They leave the cliffs just before the first storm of spring.",
+  "extraLoreLabel": "Ask about the tower",
+  "extraLore": "The watchtower's stones came from a lighthouse that sank a century ago."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "harbor_quartermaster",
+  "name": "Iona Salt",
+  "model": "humanoid_slim",
+  "caption": "HARBOR SUPPLY OFFICE",
+  "frame": "TIDE",
+  "greeting": "The storm stripped the mooring lines. Can you spare some rope?",
+  "loreLabel": "Ask about the harbor",
+  "lore": "We ring the bell twice when the tide turns. Three times means trouble.",
+  "quest": 101,
+  "questTitle": "Harbor Lines",
+  "objective": "Bring three strings to Iona Salt to replace the harbor mooring lines.",
+  "item": "minecraft:string",
+  "count": 3,
+  "reward": "minecraft:emerald",
+  "rewardCount": 2,
+  "acceptLabel": "Take the work order",
+  "accepted": "Bring me three strings. I can braid a new line from those.",
+  "turnInLabel": "Hand over string",
+  "finished": "That will hold. Check your quest book for the harbor pay.",
+  "responses": {
+    "WAITING": "I still need three strings before I can braid the line.",
+    "LOCKED": "Take the work order first so I can enter your name."
+  },
+  "colors": {
+    "accent": "#87E7DD",
+    "border": "#377B79",
+    "background": "#102A31"
+  }
+}

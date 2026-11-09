@@ -1,0 +1,109 @@
+import groovy.json.JsonOutput
+import groovy.json.JsonSlurper
+
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+group = 'dev.tentativerpg'
+version = '0.1.0'
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    maven { url = 'https://maven.ftb.dev/releases'; content { includeGroup 'dev.ftb.mods' } }
+    maven { url = 'https://maven.architectury.dev'; content { includeGroup 'dev.architectury' } }
+}
+
+configurations {
+    clientMods
+}
+
+dependencies {
+    clientMods 'maven.modrinth:tooltip-overhaul:j00qCZqC'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
+    testImplementation 'com.google.code.gson:gson:2.10.1'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    implementation 'maven.modrinth:easy-npc-core:9TVwS7rU'
+    implementation 'dev.ftb.mods:ftb-quests-neoforge:2101.1.36'
+}
+
+neoForge {
+    version = '21.1.265'
+    runs {
+        gameTestServer { type = 'gameTestServer'; gameDirectory = file('run/gametest'); systemProperty 'neoforge.enabledGameTestNamespaces', 'tentativerpg' }
+        client {
+            client()
+            gameDirectory = file('run/client')
+        }
+        server { server(); gameDirectory = file('run/server'); programArgument '--nogui' }
+    }
+    mods { tentativerpg { sourceSet sourceSets.main } }
+}
+
+tasks.named('test') { useJUnitPlatform() }
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+
+def castFile = layout.projectDirectory.file('src/main/resources/rpgtestingnpc/cast.json')
+def questOutput = layout.buildDirectory.dir('generated/quests')
+def generateQuests = tasks.register('generateQuests') {
+    inputs.file(castFile)
+    outputs.dir(questOutput)
+    doLast {
+        def cast = new JsonSlurper().parse(castFile.asFile)
+        def writeChapter = { String filename, String title, String chapterId, List residents ->
+            def quests = []
+            residents.eachWithIndex { npc, index ->
+                def id = { int suffix -> String.format(Locale.ROOT, '5267504E5043%03X%X', npc.quest, suffix) }
+                double y = index - (residents.size() - 1) / 2.0
+                quests << [id: id(0), title: "Accept: ${npc.questTitle}".toString(),
+                           x: -3.0, y: y, size: 0.6, invisible: true,
+                           tasks: [[id: id(1), type: 'custom', title: "Accept from ${npc.name}".toString()]]]
+                quests << [id: id(2), title: npc.questTitle, x: 0.0, y: y, dependencies: [id(0)],
+                           description: [npc.objective],
+                           tasks: [[id: id(3), type: 'rpgtestingnpc:npc_supplies', item: [id: npc.item, count: 1],
+                                    count: npc.count, consume_items: true]]]
+                quests << [id: id(4), title: "Report: ${npc.questTitle}".toString(),
+                           x: 3.0, y: y, dependencies: [id(2)],
+                           description: ["Bring the supplies to ${npc.name} and choose Turn in supplies.".toString()],
+                           tasks: [[id: id(5), type: 'custom', title: "Report to ${npc.name}".toString()]],
+                           rewards: [[id: id(6), type: 'item', item: [id: npc.reward, count: 1], count: npc.rewardCount]]]
+            }
+            def chapter = [id: chapterId, filename: filename, title: title,
+                           subtitle: ['Accept work from the residents and turn in supplies to them in person.'],
+                           default_quest_shape: 'square', progression_mode: 'linear',
+                           hide_quest_until_deps_complete: true, quests: quests]
+            def output = questOutput.get().file("rpgtestingnpc/${filename}.snbt").asFile
+            output.parentFile.mkdirs()
+            output.setText(JsonOutput.prettyPrint(JsonOutput.toJson(chapter)) + '\n', 'UTF-8')
+        }
+        writeChapter('rpgtestingnpc_fieldwork', 'Bracken Reach', '5267504E50430000',
+                     cast.findAll { it.id != 'sable' })
+        writeChapter('rpgtestingnpc_beacon', 'Fog Beacon', '5267504E50430001',
+                     cast.findAll { it.id == 'sable' })
+    }
+}
+tasks.named('processResources') { from(generateQuests) }
+
+tasks.named('jar') { exclude 'dev/tentativerpg/npc/SmokeGameTests.class', 'data/tentativerpg/structure/smoke_empty.nbt' }
+
+// Exercise the documented examples in the isolated GameTest instance.
+def installGameTestExamples = tasks.register('installGameTestExamples', Copy) {
+    from layout.projectDirectory.dir('examples/npc')
+    include '*.json'
+    into layout.projectDirectory.dir('run/gametest/config/rpgtestingnpc/npcs')
+}
+tasks.matching { it.name == 'runGameTestServer' }.configureEach {
+    dependsOn(installGameTestExamples)
+}
+
+def installClientMods = tasks.register('installClientMods', Copy) {
+    from configurations.clientMods
+    into layout.projectDirectory.dir('run/client/mods')
+}
+tasks.matching { it.name == 'runClient' }.configureEach {
+    dependsOn(installClientMods)
+}

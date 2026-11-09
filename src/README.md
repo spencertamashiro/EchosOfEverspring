@@ -1,13 +1,11 @@
 # Mod source layout
 
-One root Gradle project will produce one gameplay mod JAR. No Gradle project or source-set wiring exists yet.
+The root Gradle project builds one mod JAR with ID `tentativerpg`.
 
-- `main/java/dev/tentativerpg/`: feature packages; `client/` is the physical-client boundary.
-- `main/resources/`: authored runtime assets, datapack content and eventual loader metadata.
-- `test/java/`: pure logic tests, mirroring production packages once code exists.
-- `test/resources/`: small deterministic test fixtures.
-- `generated/resources/`: reserved for datagen output; wire it explicitly in the selected MDK before use.
+- `main/java/dev/tentativerpg/npc/` owns server-authoritative NPC dialogue and prototype quests.
+- `main/java/dev/tentativerpg/tooltip/` owns item metadata used by the renderer.
+- `main/java/dev/tentativerpg/client/` owns physical-client UI and sound.
+- `main/resources/` contains loader metadata, authored content and asset notices.
+- `test/java/` contains tooltip unit tests. `SmokeGameTests` and its template are available to the Gradle GameTest server.
 
-`dev.tentativerpg` and resource namespace `tentativerpg` are provisional filesystem names chosen for this scaffold, not approved registry identities. Confirm package ownership and stable mod ID in a platform ADR before adding code or metadata, then rename these folders together if needed.
-
-Tests requiring Minecraft boot belong in the source set supported by the pinned MDK, chosen when that MDK is imported. Do not assume a GameTest source set or task already exists. Add Java classes only as real vertical slices.
+See [the prototype integration guide](../docs/development/PROTOTYPES.md) for startup commands and legacy IDs.

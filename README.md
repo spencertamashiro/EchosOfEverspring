@@ -17,6 +17,6 @@ Development areas are separated into `src/` for the mod, `art/` for original ass
 
 ## Current status
 
-This repository contains design documentation and a development directory scaffold. No Java implementation or Gradle build is included. Minecraft 1.21.1, NeoForge 21.1.x, and Java 21 are a suggested baseline; exact build versions remain unpinned.
+TentativeRPG builds one NeoForge mod for Minecraft 1.21.1 with Java 21 and NeoForge 21.1.265. Run `./gradlew build` (`.\gradlew.bat build` on Windows) and find the JAR in `build/libs/`.
 
-Compatibility and licensing statements are preserved from the supplied research snapshot and have not been independently reverified as part of this import. No dependencies have been installed and no gameplay or multiplayer tests have been run.
+Use [the prototype integration guide](docs/development/PROTOTYPES.md) to run the mod and try NPC dialogue or tagged item tooltips.

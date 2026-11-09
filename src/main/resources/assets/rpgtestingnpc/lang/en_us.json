@@ -1,0 +1,22 @@
+{
+  "subtitles.rpgtestingnpc.rowan.greeting": "Rowan: Hello there. My bell clapper broke in the storm. Could you help me give the village its morning back?",
+  "subtitles.rpgtestingnpc.rowan.lore": "Rowan: I do, just before sunrise. My father taught me to leave one beat for the echoes.",
+  "subtitles.rpgtestingnpc.rowan.accepted": "Rowan: Thank you. Bring me two gold ingots and I will cast a new clapper.",
+  "subtitles.rpgtestingnpc.rowan.finished": "Rowan: Listen. There it is. Tomorrow, everyone will wake to that sound.",
+  "subtitles.rpgtestingnpc.rowan.waiting": "Rowan: I still need two gold ingots. Bring them here when you have them.",
+  "subtitles.rpgtestingnpc.rowan.reported": "Rowan: The bell is ringing again. Your reward is in the quest book.",
+  "subtitles.rpgtestingnpc.rowan.active": "Rowan: You already took the job. Bring the gold here when you have it.",
+  "subtitles.rpgtestingnpc.rowan.unavailable": "Rowan: I cannot find the order just now. Give me a moment.",
+  "subtitles.rpgtestingnpc.sable.greeting": "Sable: The fog took our beacon. I can still hear the boats. Help me light the channel?",
+  "subtitles.rpgtestingnpc.sable.lore": "Sable: Once the beacon went dark, the fog started calling boats by name.",
+  "subtitles.rpgtestingnpc.sable.accepted": "Sable: Bring me two glass panes. I will fit them into the beacon.",
+  "subtitles.rpgtestingnpc.sable.finished": "Sable: There. A light on the water. The boats can find their way home.",
+  "subtitles.rpgtestingnpc.sable.waiting": "Sable: The beacon still needs two panes. Bring them to me when you find them.",
+  "subtitles.rpgtestingnpc.sable.reported": "Sable: The channel is lit. Your reward is in the quest book.",
+  "subtitles.rpgtestingnpc.sable.active": "Sable: You already took the job. Bring the panes to me when you have them.",
+  "subtitles.rpgtestingnpc.sable.unavailable": "Sable: The fog has swallowed the work order. Try again in a moment.",
+  "ftbquests.task.rpgtestingnpc.npc_supplies": "NPC turn-in",
+  "rpgtestingnpc.quest.turn_in_at_npc": "Bring these supplies to the resident and choose Turn in supplies.",
+  "subtitles.rpgtestingnpc.rowan.locked": "Rowan: I need you to take the job before I can accept the gold.",
+  "subtitles.rpgtestingnpc.sable.locked": "Sable: Take the beacon job first. Then I can accept the glass."
+}
